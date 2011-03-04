@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+Sticky Footer Solution
+by Steve Hatcher 
+http://stever.ca
+http://www.cssstickyfooter.com
+
+IMPORTANT
+
+You also need to include this conditional style in the <head> of your HTML file to feed this style to IE 6 and lower and 8 and higher.
+
+<!--[if !IE 7]>
+	<style type="text/css">
+		#wrap {display:table;height:100%}
+	</style>
+<![endif]-->
+
+*/
+
+#footer {
+	background: none repeat scroll 0 0 #4662AD;
+	color: #e3e3e3;
+	height: 128px;
+	margin-top: -128px; /* negative value of footer height */
+	text-align: center;
+	position: relative;
+	clear: both;
+}
+
+#footer a {
+	color: #e3e3e3;
+	font-size: 13px;
+	text-decoration: none;	
+}
+
+#footer a:hover {
+	color: #D2FF8D;
+	text-shadow: 1px 1px 2px #062844;
+}
+
+#footer p {
+	color: #E3E3E3;
+	font-size: 13px;
+	line-height: 64px;
+}
+
+/* Opera Fix */
+body:before { /* thanks to Maleika (Kohoutec) */
+	content: "";
+	height: 100%;
+	float: left;
+	width: 0;
+	margin-top: -32767px; /* thank you Erik J - negate effect of float*/
+}

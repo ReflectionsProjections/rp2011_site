@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* 
+ * Must declare 0 margins on everything. Use padding for main layout components, not vertical margins (top and bottom)
+ * to add spacing, else those margins get added to total height the footer gets pushed down a bit more, creating vertical 
+ * scroll bars in the browser.
+ */
+* {
+	margin:0;
+	padding:0;
+}
+html, body {
+	height: 100%;
+}
+a:hover {
+	cursor: pointer;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0px;
+	padding: 0px;
+	font-size: 16px !important;
+}
+h1 {
+	font-weight: bold !important;
+	padding-bottom: 8px !important;
+}
+p {
+	padding-bottom: 8px !important;
+}
+.center {
+	clear: both;
+	text-align: center;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0 none;
+	color: #696969;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	font-family: Tahoma, Geneva, sans-serif;
+	margin: 0px;
+	outline: 0 none;
+	padding: 0px;
+	vertical-align: baseline;
+}
+#wrapper {
+	min-height: 100%;
+	position: relative;
+}
+#header {
+	width: 850px;
+	margin: auto;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	display: block;
+	position: relative;
+}
+#logo {
+	display: block;
+	position: relative;
+}
+#logo a {
+	background: url("../images/rp2011.png") no-repeat scroll 0 0 transparent;
+	width: 850px;
+	height: 116px;
+	margin: 0 auto;
+	text-indent: -9999px;
+	display: block;
+	position: relative;
+}
+#navigation {
+	height: 36px;
+	width: 850px;
+	margin: auto;
+	line-height: 36px;
+}
+#content {
+	width: 850px;
+	margin: auto;
+	padding-top: 16px;
+	padding-bottom: 128px;
+	clear: both;
+	overflow:auto;
+}
+#counter {
+	width: 600px;
+	margin: auto;
+	position: relative;
+}
