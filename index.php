@@ -5,10 +5,10 @@
     <title>Reflections | Projections 2011</title>
     
     <!-- Styles -->
-	<link href="css/styles.css" rel="stylesheet" type="text/css">
-    <link href="css/menu.css" rel="stylesheet" type="text/css">
-	<link href="css/footer.css" rel="stylesheet" type="text/css">
-    <link href="js/countdown/jquery.countdown.css" rel="stylesheet" type="text/css">
+	<link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="css/menu.css" rel="stylesheet" type="text/css" />
+	<link href="css/footer.css" rel="stylesheet" type="text/css" />
+    <link href="js/countdown/jquery.countdown.css" rel="stylesheet" type="text/css" />
     
     <!-- Scripts -->
     <script type="text/javascript" language="javascript" src="js/jQuery-v1.5.js"></script>
@@ -37,49 +37,13 @@
 
 <body>
 	<div id="wrapper">
-    	<div id="header">
-        	<div id="logo">
-	        	<a href="index.html" title="Home">Reflections | Projections 2011</a>
-            </div>
-        </div>
-        <div id="navigation">
-        	<div id="menu">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="schedule.html">Schedule</a></li>
-                    <li><a href="speakers.html">Speakers</a></li>
-                    <li><a href="videos.html">Videos</a></li>
-                    <li><a href="directions.html">Directions</a></li>
-                    <li><a href="job-fair.html">Job Fair</a></li>
-                    <li><a href="mechmania.html">MechMania</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </div>
+		<?php include('header.php') ?>
+		<?php include('menu.php') ?>
         <div id="content">
             <div id="counter"></div>
             <p class="center" style="padding: 16px 0px !important; font-size: 36px;">October 7 - 9, 2011</p>
         </div>
     </div>
-    <div id="footer">
-        <p>17th Annual Reflections | Projections Student Computing Conference October 7-9, 2011</p>
-		<a href="http://acm.uiuc.edu/conference/2010/">2010</a> | 
-        <a href="http://acm.uiuc.edu/conference/2009/">2009</a> | 
-		<a href="http://acm.uiuc.edu/conference/2008/">2008</a> | 
-		<a href="http://acm.uiuc.edu/conference/2007/">2007</a> |
-		<a href="http://acm.uiuc.edu/conference/2006/">2006</a> |
-		<a href="http://acm.uiuc.edu/conference/2005/">2005</a> |
-		<a href="http://acm.uiuc.edu/conference/2004/">2004</a> | 
-		<a href="http://acm.uiuc.edu/conference/2003/">2003</a> | 
-		<a href="http://acm.uiuc.edu/conference/2002/">2002</a> | 
-		<a href="http://acm.uiuc.edu/conference/2001/">2001</a> | 
-		<a href="http://acm.uiuc.edu/conference/2000/">2000</a> |
-		<a href="http://acm.uiuc.edu/conference/1999/">1999</a> | 
-		<a href="http://acm.uiuc.edu/conference/1998/">1998</a> | 
-		<a href="http://acm.uiuc.edu/conference/1997/">1997</a> | 
-		<a href="http://acm.uiuc.edu/conference/1996/">1996</a> | 
-		<a href="http://acm.uiuc.edu/conference/1995/">1995</a>
-    </div>
+	<?php include('footer.php') ?>
 </body>
 </html>

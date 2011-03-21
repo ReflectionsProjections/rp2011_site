@@ -1,4 +1,5 @@
 <?php
-include('MySQL.php');
-$GLOBALS['DB'] = new MySQL('hostname', 'schema', 'user', 'pass);
+include('DB.php');
+include('config.php');
+DB::update("INSERT INTO test(`content`) VALUES ('Ok here we go!')");
 ?>
