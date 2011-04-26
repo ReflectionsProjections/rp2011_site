@@ -13,35 +13,18 @@
 	padding: 0px 2px;
 	text-align: center;
 }
-.countdown_show1 .countdown_section {
-	width: 50px;
-}
-.countdown_show2 .countdown_section {
-	width: 50px;
-}
-.countdown_show3 .countdown_section {
-	width: 50px;
-}
 .countdown_show4 .countdown_section {
-	width: 150px;
-}
-.countdown_show5 .countdown_section {
-	width: 50px;
-}
-.countdown_show6 .countdown_section {
-	width: 50px;
-}
-.countdown_show7 .countdown_section {
-	width: 50px;
+	width: 240px;
 }
 .countdown_section {
-	display: block;
-	float: left;
-	font-size: 16px;
+	display: inline-block;
+	font-size: 32px;
 	text-align: center;
 }
 .countdown_amount {
-	font-size: 48px;
+	font-size: 128px;
+	text-shadow: -2px -2px 0px rgba(119, 198, 0, 0.8),
+				-5px -5px 0px rgba(119, 198, 0, 0.8);
 }
 .countdown_descr {
 	display: block;

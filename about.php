@@ -1,3 +1,6 @@
+<?php
+include('header.php');
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -11,8 +14,7 @@
 
 <body>
 	<div id="wrapper">
-		<?php include('header.php') ?>
-        <?php include('menu.php') ?>
+		<?php getHeader(); ?>
         <div id="content">
         	<h1>History of Reflections | Projections</h1>
             <p>Sixteen years ago, the student chapter of the Association for Computing Machinery at the University of Illinois (ACM@UIUC) held its first annual student computing conference. Attended by 150 students from across the midwest and supported by fourteen corporations, it was declared a success.</p>

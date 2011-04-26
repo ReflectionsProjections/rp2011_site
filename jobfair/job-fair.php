@@ -1,5 +1,5 @@
 <?php
-include('header.php');
+include('../header.php');
 if(!isset($_GET['code']) || !isValidURL($_GET['code'])) {
   header('Location: ./job-fair-info.php');
 }
@@ -18,9 +18,9 @@ function isValidURL($code) {
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Job Fair</title>
     
-	<link href="css/styles.css" rel="stylesheet" type="text/css" />
-    <link href="css/menu.css" rel="stylesheet" type="text/css" />
-	<link href="css/footer.css" rel="stylesheet" type="text/css" />
+	<link href="../css/styles.css" rel="stylesheet" type="text/css" />
+    <link href="../css/menu.css" rel="stylesheet" type="text/css" />
+	<link href="../css/footer.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -39,6 +39,6 @@ function isValidURL($code) {
 		</div>
         </div>
     </div>
-	<?php include('footer.php') ?>
+	<?php include('../footer.php') ?>
 </body>
 </html>

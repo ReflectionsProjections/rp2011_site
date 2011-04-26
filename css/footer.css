@@ -43,6 +43,15 @@ You also need to include this conditional style in the <head> of your HTML file 
 #footer p {
 	color: #E3E3E3;
 	font-size: 13px;
+}
+
+p#blurb  {
+	padding-top: 30px;
+	line-height:100%
+	font-size: 13px;
+}
+
+#footer br {
 	line-height: 64px;
 }
 
