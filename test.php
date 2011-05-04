@@ -20,6 +20,9 @@ for($p=0;$p <10;$p++) {
 
 DB::update("INSERT INTO companies (`name`, `code`) 
             VALUES('$company', '$code')");
+
+return $code;
+
 }
 
 ?>

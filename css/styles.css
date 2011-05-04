@@ -1,5 +1,17 @@
 @charset "UTF-8";
 /* CSS Document */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0 none;
+	color: #696969;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	font-family: Tahoma, Geneva, sans, sans-serif;
+	margin: 0px;
+	outline: 0 none;
+	padding: 0px;
+	vertical-align: baseline;
+}
 
 /* 
  * Must declare 0 margins on everything. Use padding for main layout components, not vertical margins (top and bottom)
@@ -19,32 +31,32 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
 	margin: 0px;
 	padding: 0px;
-	font-size: 16px !important;
+	font-size: 16px;
 }
 h1 {
 	font-weight: bold !important;
-	padding-bottom: 8px !important;
+	font-size: 20px;
+	padding-bottom: 16px !important;
+	padding-top: 16px !important;
 }
 p {
 	padding-bottom: 8px !important;
+}
+strong {
+	font-weight: bold;
+}
+a {
+	color: #4662AD;
+}
+a:hover {
+    color: #25418a;
+    text-shadow: 1px 1px 1px #CCCCCC;
 }
 .center {
 	clear: both;
 	text-align: center;
 }
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
-	border: 0 none;
-	color: #696969;
-	font-size: 14px;
-	font-style: normal;
-	font-weight: normal;
-	font-family: Tahoma, Geneva, sans, sans-serif;
-	margin: 0px;
-	outline: 0 none;
-	padding: 0px;
-	vertical-align: baseline;
-}
-#confdate, #content, .countdown_section, .countdown_amount {
+#content, .countdown_section, .countdown_amount {
 	color: #333;
 	font-family: "VT323";
  
@@ -52,6 +64,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #confdate {
 	padding: 16px 0px !important; 
 	font-size: 64px;
+	color: #333;
 	text-shadow: 0 -1px 0 #030;
 }
 #wrapper {
@@ -88,14 +101,21 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #content {
 	width: 850px;
 	margin: auto;
-	padding-top: 16px;
-	padding-bottom: 128px;
+	padding-bottom: 150px;
 	clear: both;
-	overflow:auto;
+	overflow-x:hidden;
+	overflow-y:auto;
 }
 #counter {
 	width: 964px;
 	margin: auto;
 	position: relative;
 	left: -50px;
+}
+#names {
+	margin-left: 50px;
+	list-style: circle;
+}
+.info {
+	margin-left: 50px;
 }

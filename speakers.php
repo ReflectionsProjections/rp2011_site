@@ -5,7 +5,7 @@ include('header.php');
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Oh No!</title>
+    <title>Speaker List</title>
     
 	<link href="css/styles.css" rel="stylesheet" type="text/css" />
     <link href="css/menu.css" rel="stylesheet" type="text/css" />
@@ -16,8 +16,22 @@ include('header.php');
 	<div id="wrapper">
 		<?php getHeader(); ?>
        <div id="content">
-            <h1>This is a Stub</h1>
-	    	<p>Sadly, you've reached a page that hasn't been written yet.</p>
+		<h1>Speaker List</h1>
+		<div id="names">
+			<ul>
+				<li>Cliff Click</li>
+				<li>Josh Bloch</li>
+				<li>Maddog</li>
+				<li>Rachael Brady</li>
+				<li>Rebecca Fiebrink</li>
+				<li>Scott Klemmer</li>
+				<li>Mark Makdad</li>
+				<li>Ben Kamens</li>
+				<li>Douglas Hofstadter</li>
+				<li>Richard Powers</li>
+				<li>Brian Murphy</li>
+			</ul>
+		</div>
         </div>
     </div>
 	<?php include('footer.php') ?>
