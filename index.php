@@ -42,8 +42,30 @@ include('header.php');
 	<div id="wrapper">
 		<?php getHeader(); ?>
         <div id="content">
-            <div id="counter"></div>
-            <p class="center" id="confdate">October 7 - 9, 2011</p>
+ 		<!-- <div style="width: 415px; margin: 50px auto; padding-left: 100px; overflow: auto;">
+			<h2>Announced Speakers</h2>
+			<div style="float: left;">
+				<ul>
+					<li>Cliff Click</li>
+					<li>Josh Bloch</li>
+					<li>Maddog</li>
+					<li>Rachael Brady</li>
+					<li>Rebecca Fiebrink</li>
+					<li>Scott Klemmer</li>
+				</ul>
+			</div>
+			<div style="float: left; margin-left: 50px;">
+				<ul>
+					<li>Mark Makdad</li>
+					<li>Ben Kamens</li>
+					<li>Douglas Hofstadter</li>
+					<li>Richard Powers </li>
+					<li>Brian Murphy</li>
+				</ul>
+			</div>
+		</div> -->
+           	<div id="counter"></div>
+           	<p class="center" id="confdate">October 7 - 9, 2011</p>
         </div>
     </div>
 	<?php include('footer.php') ?>
