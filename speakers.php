@@ -28,7 +28,6 @@ include('header.php');
 				<li>Mark Makdad</li>
 				<li>Ben Kamens</li>
 				<li>Douglas Hofstadter</li>
-				<li>Richard Powers (depending on availability)</li>
 				<li>Brian Murphy</li>
 			</ul>
 		</div>
