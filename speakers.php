@@ -23,12 +23,13 @@ include('header.php');
 				<li>Josh Bloch</li>
 				<li>Maddog</li>
 				<li>Rachael Brady</li>
-				<li>Rebecca Fiebrink</li>
 				<li>Scott Klemmer</li>
 				<li>Mark Makdad</li>
 				<li>Ben Kamens</li>
 				<li>Douglas Hofstadter</li>
 				<li>Brian Murphy</li>
+				<!-- Can we, maybe, link these to relevant web sites to simplify things for people? -->
+				<li>Fred Gallagher</li><!-- The webcomic artist behind Megatokyo -->
 			</ul>
 		</div>
         </div>
