@@ -12,7 +12,7 @@ include('header.php');
     <link href="css/menu.css" rel="stylesheet" type="text/css" />
 	<link href="css/footer.css" rel="stylesheet" type="text/css" />
     <link href="js/countdown/jquery.countdown.css" rel="stylesheet" type="text/css" />
-   <link href='http://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'> 
+   <!-- <link href='http://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'> -->
     <!-- Scripts -->
     <script type="text/javascript" language="javascript" src="js/jQuery-v1.5.js"></script>
     <script type="text/javascript" language="javascript" src="js/countdown/jquery.countdown.js"></script>

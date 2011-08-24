@@ -22,9 +22,9 @@
 	text-align: center;
 }
 .countdown_amount {
-	font-size: 128px;
+	font-size: 64px;
 	text-shadow: -2px -2px 0px rgba(119, 198, 0, 0.8),
-				-5px -5px 0px rgba(119, 198, 0, 0.8);
+				-3px -3px 0px rgba(119, 198, 0, 0.8);
 }
 .countdown_descr {
 	display: block;
