@@ -12,7 +12,7 @@ include('header.php');
     <link href="css/menu.css" rel="stylesheet" type="text/css" />
 	<link href="css/footer.css" rel="stylesheet" type="text/css" />
     <link href="js/countdown/jquery.countdown.css" rel="stylesheet" type="text/css" />
-   <!-- <link href='http://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'> -->
+
     <!-- Scripts -->
     <script type="text/javascript" language="javascript" src="js/jQuery-v1.5.js"></script>
     <script type="text/javascript" language="javascript" src="js/countdown/jquery.countdown.js"></script>
@@ -28,10 +28,6 @@ include('header.php');
 				timeSeparator: ':',
 				until: rpDate,
 			});
-			/*$('#counter').countdown({
-				image: 'js/countdown/digits.png',
-				startTime: ''
-			});*/
 		});
     </script>
     <style type="text/css">
@@ -42,28 +38,6 @@ include('header.php');
 	<div id="wrapper">
 		<?php getHeader(); ?>
         <div id="content">
- 		<!-- <div style="width: 415px; margin: 50px auto; padding-left: 100px; overflow: auto;">
-			<h2>Announced Speakers</h2>
-			<div style="float: left;">
-				<ul>
-					<li>Cliff Click</li>
-					<li>Josh Bloch</li>
-					<li>Maddog</li>
-					<li>Rachael Brady</li>
-					<li>Rebecca Fiebrink</li>
-					<li>Scott Klemmer</li>
-				</ul>
-			</div>
-			<div style="float: left; margin-left: 50px;">
-				<ul>
-					<li>Mark Makdad</li>
-					<li>Ben Kamens</li>
-					<li>Douglas Hofstadter</li>
-					<li>Richard Powers </li>
-					<li>Brian Murphy</li>
-				</ul>
-			</div>
-		</div> -->
            	<div id="counter"></div>
            	<p class="center" id="confdate">October 7 - 9, 2011</p>
         </div>
