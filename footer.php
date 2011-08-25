@@ -1,4 +1,5 @@
     <div id="footer">
+    omgomgomgomg
         <p id="blurb">17th Annual Reflections | Projections Student Computing Conference</p>
 	<p>October 7-9, 2011</p>
 		<a href="http://acm.uiuc.edu/conference/2010/">2010</a> | 
