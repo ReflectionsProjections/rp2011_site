@@ -1,5 +1,5 @@
 <?php
-include('header.php');
+	include('header.php');
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -14,8 +14,8 @@ include('header.php');
 		<div id="wrapper">
 			<?php getHeader(); ?>
 			<div id="content-wrapper">
+				<h1 class="speaker-list-heading vertical-text">speakers</h1>
 				<div id="content">
-					<h1 class="speaker-list-heading vertical-text">Speakers</h1>
 					<div id="names">
 						<ul>
 							<li class="speaker">

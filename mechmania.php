@@ -15,8 +15,8 @@ include('header.php');
 		<div id="wrapper">
 			<?php getHeader(); ?>
 			<div id="content-wrapper">
+				<h1 class="mechmania-heading vertical-text">MechMania</h1>
 				<div id="content">
-					<h1 class="mechmania-heading vertical-text">MechMania</h1>
 					<h2>AI Programming Competition</h2>
 					<p>Each year at Reflections|Projections, we host an artificial intelligence programming competition. The winner takes home a cash prize and bragging rights for the next year.</p>
 					<p>Teams of students are tasked with the challenge of building an AI around a client library to play a game against the other teams. Up until the competition, the content of the game remains a tightly-held secret. The game's goal is announced Friday night and competitors are given a few hours to understand the content and develop a strategy.</p>
