@@ -15,7 +15,7 @@ include('header.php');
 			<?php getHeader(); ?>
 			<div id="content-wrapper">
 				<div id="content">
-					<h1 class="speaker-list-heading vertical-text">Speaker List</h1>
+					<h1 class="speaker-list-heading vertical-text">Speakers</h1>
 					<div id="names">
 						<ul>
 							<li class="speaker">
