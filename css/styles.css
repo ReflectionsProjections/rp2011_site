@@ -8,9 +8,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	font-weight: normal;
 	font-family: Tahoma, Geneva, sans, sans-serif;
 	list-style-type: none;
-	margin: 0px;
+	margin: 0;
 	outline: 0 none;
-	padding: 0px;
+	padding: 0;
 	vertical-align: baseline;
 }
 
@@ -19,27 +19,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
  * to add spacing, else those margins get added to total height the footer gets pushed down a bit more, creating vertical 
  * scroll bars in the browser.
  */
-* {
-	margin:0;
-	padding:0;
-}
 html, body {
 	height: 100%;
 }
 a:hover {
 	cursor: pointer;
 }
-h1, h2, h3, h4, h5, h6 {
-	margin: 0px;
-	padding: 0px;
-	font-size: 16px;
-}
-h1 {
-	font-weight: bold !important;
-	font-size: 20px;
-	padding-bottom: 16px !important;
-	padding-top: 16px !important;
-}
+
 p {
 	padding-bottom: 8px !important;
 }
@@ -53,16 +39,7 @@ a:hover {
     color: #25418a;
     text-shadow: 1px 1px 1px #CCCCCC;
 }
-.center {
-	clear: both;
-	text-align: center;
-}
-#content, .countdown_section, .countdown_amount {
-	color: #333;
-	/* font-family: "VT323"; */
-	font-family: Tahoma, Geneva, sans, sans-serif;
- 
-}
+
 #confdate {
 	padding: 16px 0px !important; 
 	font-size: 48px;
@@ -100,24 +77,172 @@ a:hover {
 	margin: auto;
 	line-height: 36px;
 }
+
+#names {
+	list-style: circle;
+}
+.tab {
+	margin-left: 25px;
+}
+
+/******** Headers ********/
+h1, h2, h3, h4, h5, h6 {
+	margin: 0px;
+	padding: 0px;
+	font-size: 16px;
+}
+
+h1 {
+	font-weight: bold !important;
+}
+
+h2 {
+	font-weight: bold;
+	padding: 8px 0px;
+}
+
+/******** Content ********/
+#content-wrapper {
+	min-height: 400px;
+	width: 964px;
+	margin: auto;
+}
+
 #content {
-	width: 850px;
+	color: #333;
+	font-family: Tahoma, Geneva, sans, sans-serif;
+	width: 800px;
 	margin: auto;
 	padding-bottom: 150px;
+	position: relative;
 	clear: both;
-	overflow-x:hidden;
-	overflow-y:auto;
+	overflow-x: visible;
+	overflow-y: visible;
 }
+
+/******** Count Down ********/
+#counter-wrapper {
+	height: 200px;
+	margin-top: -100px;
+	position: absolute;
+	top: 50%;
+}
+
 #counter {
 	width: 964px;
 	margin: auto;
 	position: relative;
-	left: -50px;
 }
-#names {
-	margin-left: 50px;
-	list-style: circle;
+
+.countdown_section, .countdown_amount {
+	color: #333;
+	font-family: Tahoma, Geneva, sans, sans-serif;
 }
-.info {
-	margin-left: 50px;
+
+/******** About Page ********/
+.about-heading {
+	font-size: 32px;
+	position: absolute;
+	left: -114px;
+	top: 56px;
+}
+
+/******** Schedule Page ********/
+.schedule-heading {
+	font-size: 32px;
+	position: absolute;
+	left: -139px;
+	top: 81px;	
+}
+
+/******** Speakers Page ********/
+.speaker {
+	height: 200px;
+	width: 200px;
+	margin-bottom: 16px;
+	margin-top: 8px;
+	float: left;
+}
+
+.speaker img {
+	margin-left: 25px;
+}
+
+.speaker p {
+	text-align: center;
+	padding: 0 !important;
+}
+
+.speaker-pic {
+	border: 1px solid #e3e3e3;
+	height: 150px;
+	width: 150px;
+	margin-left: 25px;
+}
+
+.speaker-name {
+	color: #4662ad;
+	margin-top: 4px !important;
+}
+
+.speaker-affiliation {
+	margin: 0 !important;
+}
+
+.speaker-list-heading {
+	font-size: 32px;
+	position: absolute;
+	left: -165px;
+	top: 107px;
+}
+
+/******** Travel Page ********/
+.travel-heading {
+	font-size: 32px;
+	position: absolute;
+	left: -117px;
+	top: 59px;
+}
+
+/******** Job Fair Page ********/
+.job-fair-heading {
+	font-size: 32px;
+	position: absolute;
+	left: -130px;
+	top: 72px;
+}
+
+/******** MechMania Page ********/
+.mechmania-heading {
+	font-size: 32px;
+	position: absolute;
+	left: -158px;
+	top: 100px;
+}
+
+/******** Contact Us Page ********/
+.contact-heading {
+	font-size: 32px;
+	position: absolute;
+	left: -153px;
+	top: 95px;
+}
+
+/******** Helper Classes ********/
+.center {
+	clear: both;
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+}
+
+.vertical-text {
+	border-bottom: 2px solid;
+	padding: 0 8px 4px 8px;
+	-moz-transform: rotate(-90deg); 
+	-webkit-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
 }

@@ -13,11 +13,16 @@ include('header.php');
 	<body>
 		<div id="wrapper">
 			<?php getHeader(); ?>
-			<div id="content">
-				<h1>Schedule</h1>
-				<p>The schedule for this year is not yet available. Please check back again later.</p>
-			</div>
-		</div>
+			<div id="content-wrapper">
+				<div id="content">
+					<h1 class="schedule-heading vertical-text">Schedule</h1>
+					<h2>Friday</h2>
+					<p class="tab">The schedule for this year is not yet available. Please check back again later.</p>
+					<h2>Saturday</h2>
+					<h2>Sunday</h2>
+				</div><!-- #content end -->
+			</div><!-- #content-wrapper end -->
+		</div><!-- #wrapper end -->
 		<?php include('footer.php') ?>
 	</body>
 </html>
