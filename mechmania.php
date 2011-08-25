@@ -21,7 +21,7 @@ include('header.php');
 				<p>Starting Saturday morning and ending Sunday morning, competitors must build their AI and test it. All entries are then run in a final tournament to determine the winner.</p>
 				<p>The competition also accepts corporate sponsors, who compete in a separate bracket. Just for fun, corporate entries will also be run against student entries throughout the weekend to see who's better.</p>
 				<h1>Language Notice</h1>
-				<p>Due to complications with the 2010 competition, we are restricting entries to Java this year. We are sorry for any inconvenience this may cause. Our decision to support only a single language did not come lightly and was the result of extensive debate and analysis.</p>
+				<p>Due to overwhelming requests to simplify the MechMania API, we will be providing a REST interface and data will be communicated with JSON. As such, any language which is capable of interpreting and serializing JSON, and which can communicate with a REST webserver will be accepted during this year's competition. A language-specific object model and a function-based command layer will <i>not</i> be provided. We suggest Python or another language which has integrated support for deserializing JSON.</p>
 			</div>
 		</div>
 		<?php include('footer.php') ?>
