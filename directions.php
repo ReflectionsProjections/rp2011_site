@@ -14,8 +14,8 @@ include('header.php');
 		<div id="wrapper">
 			<?php getHeader(); ?>
 			<div id="content-wrapper">
+				<h1 class="travel-heading vertical-text">Travel</h1>
 				<div id="content">
-					<h1 class="travel-heading vertical-text">Travel</h1>
 					<h2>Locations</h2>
 					<p class="tab">
 						<a href="http://cs.illinois.edu/siebel">Thomas M. Siebel Center for Computer Science</a><br />

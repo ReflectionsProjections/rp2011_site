@@ -106,6 +106,7 @@ h2 {
 	min-height: 400px;
 	width: 964px;
 	margin: auto;
+	position: relative;
 }
 
 #content {
@@ -116,7 +117,7 @@ h2 {
 	padding-bottom: 150px;
 	position: relative;
 	clear: both;
-	overflow-x: visible;
+	overflow-x: auto;
 	overflow-y: visible;
 }
 
@@ -143,16 +144,16 @@ h2 {
 .about-heading {
 	font-size: 32px;
 	position: absolute;
-	left: -114px;
-	top: 56px;
+	left: -30px;
+	top: 50px;
 }
 
 /******** Schedule Page ********/
 .schedule-heading {
 	font-size: 32px;
 	position: absolute;
-	left: -139px;
-	top: 81px;	
+	left: -55px;
+	top: 75px;	
 }
 
 /******** Speakers Page ********/
@@ -165,7 +166,8 @@ h2 {
 }
 
 .speaker img {
-	margin-left: 25px;
+	/*margin-left: 25px;*/
+	margin-top: 28px;
 }
 
 .speaker p {
@@ -192,40 +194,48 @@ h2 {
 .speaker-list-heading {
 	font-size: 32px;
 	position: absolute;
-	left: -165px;
-	top: 107px;
+	left: -53px;
+	top: 74px;
 }
 
 /******** Travel Page ********/
 .travel-heading {
 	font-size: 32px;
 	position: absolute;
-	left: -117px;
-	top: 59px;
+	left: -33px;
+	top: 53px;
 }
 
 /******** Job Fair Page ********/
 .job-fair-heading {
 	font-size: 32px;
 	position: absolute;
-	left: -130px;
-	top: 72px;
+	left: -46px;
+	top: 66px;
 }
 
 /******** MechMania Page ********/
 .mechmania-heading {
 	font-size: 32px;
 	position: absolute;
-	left: -158px;
-	top: 100px;
+	left: -73px;
+	top: 94px;
+}
+
+/******** Volunteers Page ********/
+.volunteer-heading {
+	font-size: 32px;
+	position: absolute;
+	left: -69px;
+	top: 89px;	
 }
 
 /******** Contact Us Page ********/
 .contact-heading {
 	font-size: 32px;
 	position: absolute;
-	left: -153px;
-	top: 95px;
+	left: -68px;
+	top: 89px;
 }
 
 /******** Helper Classes ********/
