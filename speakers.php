@@ -91,7 +91,6 @@
 							<li class="speaker">
 								<div class="speaker-pic">
 									<img src="images/placeholder.png" alt="Fred Gallagher" width="150" height="150" />
-									<!-- <img src="images/speakers/FredGallagher.jpg" alt="Fred Gallagher" width="150" height="150" /> -->
 								</div>
 								<p class="speaker-name">Fred Gallagher</p>
 								<p class="speaker-affiliation">Co-Creator/Cartoonist, Megatokyo</p>
