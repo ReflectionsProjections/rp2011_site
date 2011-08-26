@@ -36,6 +36,9 @@
 	<div id="wrapper">
 		<?php getHeader(); ?>
 		<div id="content-wrapper">
+				<div id="news" style="text-align: center; padding-top: 32px;">
+					<a href="volunteers.php" style="font-size: 28px;">Volunteer Registration is now open!</a>
+				</div>
 				<div id="counter-wrapper">
 					<div id="counter"></div>
 					<p class="center" id="confdate">October 7 - 9, 2011</p>
