@@ -101,6 +101,20 @@ h2 {
 	padding: 8px 0px;
 }
 
+
+/******** Announce bar ********/
+#announcement {
+ text-align: center;
+ height: 25px;
+ background-color: #e3e3e3;
+ border-bottom: 2px #c4c4c4 solid;
+}
+
+#announcement p, a:link {
+ font-size: 20px;
+ text-decoration: none;
+}
+
 /******** Content ********/
 #content-wrapper {
 	min-height: 400px;
@@ -121,12 +135,15 @@ h2 {
 	overflow-y: visible;
 }
 
+/******** Orbit Plugin ******/
+.orbit-wrapper {
+       padding-bottom: 10px;
+       margin: auto;
+}
+
 /******** Count Down ********/
 #counter-wrapper {
-	height: 200px;
-	margin-top: -100px;
-	position: absolute;
-	top: 50%;
+	position: relative;
 }
 
 #counter {

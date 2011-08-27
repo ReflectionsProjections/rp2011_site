@@ -21,9 +21,9 @@ You also need to include this conditional style in the <head> of your HTML file 
 
 #footer {
 	background: none repeat scroll 0 0 #4662AD;
+	display: block;
 	height: 128px;
 	width: 100%;
-	margin-top: -128px; /* negative value of footer height */
 	position: relative;
 	clear: both;
 }

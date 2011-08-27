@@ -10,6 +10,9 @@ session_start();
 
 function getHeader() {
 	echo <<<EOT
+			<div id="announcement">
+				<p><a href="volunteers.php">Volunteer Registration</a> is now open!</p>
+			</div>
 	        <div id="header">
 	                <div id="logo">
 	                        <a href="index.php" title="Home">Reflections | Projections 2011</a>
