@@ -16,7 +16,7 @@ include('header.php');
 	<div id="wrapper">
 		<?php getHeader(); ?>
 		<div id="content-wrapper">
-			<h1 class="contact-heading vertical-text">Contact Us</h1>
+			<h1 class="contact-heading vertical-text">contact us</h1>
 			<div id="content">
 				<h2>Conference Information</h2>
 				<div class="tab">

@@ -104,15 +104,15 @@ h2 {
 
 /******** Announce bar ********/
 #announcement {
- text-align: center;
- height: 25px;
- background-color: #e3e3e3;
- border-bottom: 2px #c4c4c4 solid;
+	border-bottom: 1px #c4c4c4 solid;
+	background-color: #efefef;
+	height: 25px;
+	text-align: center;
 }
 
 #announcement p, a:link {
- font-size: 20px;
- text-decoration: none;
+	font-size: 20px;
+	text-decoration: none;
 }
 
 /******** Content ********/
@@ -209,32 +209,32 @@ h2 {
 .speaker-list-heading {
 	font-size: 32px;
 	position: absolute;
-	left: -53px;
-	top: 74px;
+	left: -55px;
+	top: 75px;
 }
 
 /******** Travel Page ********/
 .travel-heading {
 	font-size: 32px;
 	position: absolute;
-	left: -33px;
-	top: 53px;
+	left: -31px;
+	top: 51px;
 }
 
 /******** Job Fair Page ********/
 .job-fair-heading {
 	font-size: 32px;
 	position: absolute;
-	left: -46px;
-	top: 66px;
+	left: -42px;
+	top: 62px;
 }
 
 /******** MechMania Page ********/
 .mechmania-heading {
 	font-size: 32px;
 	position: absolute;
-	left: -73px;
-	top: 94px;
+	left: -75px;
+	top: 95px;
 }
 
 /******** Volunteers Page ********/
@@ -249,8 +249,8 @@ h2 {
 .contact-heading {
 	font-size: 32px;
 	position: absolute;
-	left: -68px;
-	top: 89px;
+	left: -66px;
+	top: 86px;
 }
 
 /******** Helper Classes ********/
