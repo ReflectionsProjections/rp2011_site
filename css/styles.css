@@ -26,6 +26,10 @@ a:hover {
 	cursor: pointer;
 }
 
+a {
+	text-decoration: none;
+}
+
 p {
 	padding-bottom: 8px !important;
 }
@@ -40,12 +44,6 @@ a:hover {
     text-shadow: 1px 1px 1px #CCCCCC;
 }
 
-#confdate {
-	padding: 16px 0px !important; 
-	font-size: 48px;
-	color: #333;
-	text-shadow: 0 -1px 0 #030;
-}
 #wrapper {
 	min-height: 100%;
 	min-width: 964px;
@@ -111,7 +109,7 @@ h2 {
 	text-align: center;
 }
 
-#announcement p, a:link {
+#announcement p, #announcement a:link {
 	font-size: 20px;
 	text-decoration: none;
 }
@@ -144,10 +142,13 @@ h2 {
 
 /******** Count Down ********/
 #counter-wrapper {
+	height: 200px;
+	margin-bottom: 128px;
 	position: relative;
 }
 
 #counter {
+	height: 120px;
 	width: 964px;
 	margin: auto;
 	position: relative;
@@ -157,6 +158,16 @@ h2 {
 	color: #333;
 	font-family: Tahoma, Geneva, sans, sans-serif;
 }
+
+#confdate {
+	height: 48px;
+	color: #333;
+	font-size: 48px;
+	line-height: 48px;
+	padding: 16px 0px !important; 
+	text-shadow: 0 -1px 0 #030;
+}
+
 
 /******** About Page ********/
 .about-heading {
