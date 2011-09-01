@@ -1,5 +1,4 @@
 <?php
-	include('header.php');
 	if(!isset($_GET['code']) || !isValidURL($_GET['code'])) {
 		header('Location: ./job-fair-info.php');
 	}
@@ -10,6 +9,7 @@
 
 		return DB::query($query);
 	}
+	include('header.php');
 ?>
 <div id="wrapper">
 	<?php getHeader() ?>
@@ -29,3 +29,4 @@
 	</div><!-- #content-wrapper end -->
 </div><!-- #wrapper end -->
 <?php include('footer.php') ?>
+<?php include('close-page.php') ?>

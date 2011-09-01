@@ -9,18 +9,16 @@
 	session_start();
 
 	function getHeader() {
-		echo <<<EOT
-<div id="announcement">
-	<p><a href="volunteers.php">Volunteer Registration</a> is now open!</p>
-</div>
-<div id="header">
-	<div id="logo">
-		<a href="index.php" title="Home">Reflections | Projections 2011</a>
-	</div>
-</div>
-EOT;
-	include('menu.php');
-}
+?>
+		<div id="announcement">
+			<p><a href="volunteers.php">Volunteer Registration</a> is now open!</p>
+		</div>
+		<div id="header">
+			<div id="logo"><a href="index.php" title="Home">Reflections | Projections 2011</a></div>
+		</div>
+<?php
+		include('menu.php');
+	}
 
 	function isAdmin() {
 		return $_SESSION['admin'];
@@ -49,9 +47,9 @@ EOT;
 
 	<!-- Styles -->
 	<link href="css/styles.css" rel="stylesheet" type="text/css" />
-	<link href="css/orbit-1.2.3.css" rel="stylesheet" type="text/css" />
-	<link href="css/menu.css" rel="stylesheet" type="text/css" />
 	<link href="css/footer.css" rel="stylesheet" type="text/css" />
+	<link href="css/menu.css" rel="stylesheet" type="text/css" />
+	<link href="css/orbit-1.2.3.css" rel="stylesheet" type="text/css" />
 	<link href="js/countdown/jquery.countdown.css" rel="stylesheet" type="text/css" />
 </head>
 
