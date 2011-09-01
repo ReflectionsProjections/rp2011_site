@@ -1,4 +1,5 @@
 <?php
+  $title = 'Speakers';
 	include('header.php');
 ?>
 <div id="wrapper">

@@ -1,4 +1,5 @@
 <?php
+  $title = 'MechMania';
 	include('header.php');
 ?>
 <div id="wrapper">

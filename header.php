@@ -43,7 +43,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<title>Reflections | Projections 2011</title>
+	<title><?php if (isset($title)) { echo $title . " &laquo; "; } ?>Reflections | Projections 2011</title>
 
 	<!-- Styles -->
 	<link href="css/styles.css" rel="stylesheet" type="text/css" />

@@ -1,4 +1,5 @@
 <?php
+  $title = 'Volunteers';
 	include('header.php');
 ?>
 <div id="wrapper">

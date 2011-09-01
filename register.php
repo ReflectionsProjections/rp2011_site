@@ -1,4 +1,5 @@
 <?php
+$title = 'Register';
 include('header.php');
 ?>
     <div id="wrapper">

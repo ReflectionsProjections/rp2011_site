@@ -1,5 +1,6 @@
 <?php
 	if(!isset($_GET['code']) || !isValidURL($_GET['code'])) {
+	  $title = 'Job Fair';
 		header('Location: ./job-fair-info.php');
 	}
 

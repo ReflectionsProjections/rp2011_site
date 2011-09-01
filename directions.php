@@ -1,4 +1,5 @@
 <?php
+  $title = 'Travel';
 	include('header.php');
 ?>
 <div id="wrapper">

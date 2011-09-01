@@ -1,4 +1,5 @@
 <?php
+$title = 'Companies';
 include('header.php');
 $companyData = DB::query("SELECT * FROM companies");
 

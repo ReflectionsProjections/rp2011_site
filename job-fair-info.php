@@ -1,4 +1,5 @@
 <?php
+  $title = 'Job Fair';
 	include('header.php');
 ?>
 <div id="wrapper">

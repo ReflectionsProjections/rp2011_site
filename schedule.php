@@ -1,4 +1,5 @@
 <?php
+  $title = 'Schedule';
 	include('header.php');
 ?>
 <div id="wrapper">
