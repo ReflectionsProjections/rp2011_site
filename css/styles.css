@@ -168,6 +168,13 @@ h2 {
 	text-shadow: 0 -1px 0 #030;
 }
 
+/******** Attendee Registration Page *******/
+.registration-heading {
+	font-size: 32px;
+	position: absolute;
+	left: -55px;
+	top: 75px;
+}
 
 /******** About Page ********/
 .about-heading {
