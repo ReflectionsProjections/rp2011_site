@@ -1,1 +1,5 @@
 .backup
+.metadata
+.DS_Store
+.project
+.gitignore
