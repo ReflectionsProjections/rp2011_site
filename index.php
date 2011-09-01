@@ -24,9 +24,6 @@
 <script type="text/javascript" language="javascript">
 	
 	$(document).ready(function() {
-
-		$('#featured-images').orbit();
-
 		var today = new Date();
 		var rpDate = new Date(2011, 9, 7, 00, 00, 00);
 
@@ -35,6 +32,11 @@
 			timeSeparator: ':',
 			until: rpDate,
 		});
+	});
+
+	$(window).load(function () {
+		$('#featured-images').show();
+		$('#featured-images').orbit();
 	});
 
 </script>
