@@ -2,6 +2,7 @@
     <div id="menu">
         <ul>
             <li><a href="about.php">About</a></li>
+            <li><a href="register.php">Register</a></li>
             <li><a href="schedule.php">Schedule</a></li>
             <li><a href="speakers.php">Speakers</a></li>
             <li><a href="directions.php">Travel</a></li>
