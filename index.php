@@ -23,8 +23,8 @@
 <script type="text/javascript" language="javascript">
 	
 	$(document).ready(function() {
-		//Featured Images
-		$('#featured-images').orbit();
+
+		$('#featured-images').orbit() 
 
 		var today = new Date();
 		var rpDate = new Date(2011, 9, 7, 00, 00, 00);
@@ -37,4 +37,3 @@
 	});
 
 </script>
-	
