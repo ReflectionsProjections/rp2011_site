@@ -44,11 +44,22 @@ a:hover {
     text-shadow: 1px 1px 1px #CCCCCC;
 }
 
-#wrapper {
-	min-height: 100%;
-	min-width: 964px;
-	position: relative;
+/******** Headers ********/
+h1, h2, h3, h4, h5, h6 {
+	margin: 0px;
+	padding: 0px;
+	font-size: 16px;
 }
+
+h1 {
+	font-weight: bold !important;
+}
+
+h2 {
+	font-weight: bold;
+	padding: 8px 0px;
+}
+
 #header {
 	width: 964px;
 	margin: auto;
@@ -77,29 +88,6 @@ a:hover {
 	line-height: 36px;
 }
 
-#names {
-	list-style: circle;
-}
-.tab {
-	margin-left: 25px;
-}
-
-/******** Headers ********/
-h1, h2, h3, h4, h5, h6 {
-	margin: 0px;
-	padding: 0px;
-	font-size: 16px;
-}
-
-h1 {
-	font-weight: bold !important;
-}
-
-h2 {
-	font-weight: bold;
-	padding: 8px 0px;
-}
-
 
 /******** Announce bar ********/
 #announcement {
@@ -115,6 +103,12 @@ h2 {
 }
 
 /******** Content ********/
+#wrapper {
+	min-height: 100%;
+	min-width: 964px;
+	position: relative;
+}
+
 #content-wrapper {
 	min-height: 400px;
 	width: 964px;
@@ -136,8 +130,8 @@ h2 {
 
 /******** Orbit Plugin ******/
 .orbit-wrapper {
-       padding-bottom: 10px;
-       margin: auto;
+	padding-bottom: 10px;
+	margin: auto;
 }
 
 /******** Count Down ********/
@@ -185,6 +179,10 @@ h2 {
 }
 
 /******** Speakers Page ********/
+#names {
+	list-style: circle;
+}
+
 .speaker {
 	height: 200px;
 	width: 200px;
@@ -265,6 +263,10 @@ h2 {
 }
 
 /******** Helper Classes ********/
+.tab {
+	margin-left: 25px;
+}
+
 .center {
 	clear: both;
 	text-align: center;

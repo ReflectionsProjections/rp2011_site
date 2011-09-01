@@ -18,13 +18,14 @@
 <?php include('footer.php') ?>
 
 <!-- Scripts last because we want the entire dom to be loaded.-->
+<script type="text/javascript" language="javascript" src="js/jquery-1.5.1.min.js"></script>
 <script type="text/javascript" language="javascript" src="js/jquery.orbit-1.2.3.min.js"></script>
 <script type="text/javascript" language="javascript" src="js/countdown/jquery.countdown.js"></script>
 <script type="text/javascript" language="javascript">
 	
 	$(document).ready(function() {
 
-		$('#featured-images').orbit() 
+		$('#featured-images').orbit();
 
 		var today = new Date();
 		var rpDate = new Date(2011, 9, 7, 00, 00, 00);
@@ -37,3 +38,4 @@
 	});
 
 </script>
+<?php include('close-page.php') ?>

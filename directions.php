@@ -23,3 +23,4 @@
 	</div><!-- #content-wrapper end -->
 </div><!-- #wrapper end -->
 <?php include('footer.php') ?>
+<?php include('close-page.php') ?>
