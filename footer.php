@@ -1,15 +1,4 @@
-<?php 
-if (strpos($_SERVER['PHP_SELF'], 'index.php') === FALSE) {
-?>
-<div id="footer" style="margin-top: -128px">
-<?php
-}
-else {
-?>
 <div id="footer">
-<?php
-}
-?>
 	<div id="footer-content">
 		<p id="blurb">17th Annual Reflections | Projections Student Computing Conference</p>
 		<p>October 7-9, 2011</p>

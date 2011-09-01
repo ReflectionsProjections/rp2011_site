@@ -29,8 +29,8 @@
 					<p class="center" id="confdate">October 7 - 9, 2011</p>
 				</div><!-- #counter-wrapper end -->
 		</div><!-- #content-wrapper end -->
-		<?php include('footer.php') ?>
 	</div><!-- #wrapper end -->
+	<?php include('footer.php') ?>
 
 	<!-- Scripts last because we want the entire dom to be loaded.-->
 	<script type="text/javascript" language="javascript" src="js/jquery.orbit-1.2.3.min.js"></script>
