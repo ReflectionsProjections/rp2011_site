@@ -36,6 +36,8 @@ echo "<table  border=1>
 	</tr>";
 
 
+$companiesRegistered = 0;
+
 foreach($companyData as $company) {
 $isRegistered = in_array($company['ID'], $regIDs);
 $isRegistered = $isRegistered ? "checked" : "";
@@ -51,8 +53,13 @@ echo <<< EOF
 	  <td> <input type="checkbox" name="is_coming[]" $isRegistered disabled="disabled"/> </td>
 	</tr>
 EOF;
+
+$isRegistered ? $companiesRegistered++ : null;
+
 }
 echo "</table>";
 echo '<input type=submit name="submit" value="submit" />';
 echo '</form>';
+
+echo "Number of registered companies: " . $companiesRegistered . " /" . sizeof($companyData);
 ?>
