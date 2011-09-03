@@ -11,7 +11,7 @@
 				<ul>
 					<li class="speaker">
 						<div class="speaker-pic">
-							<img src="images/placeholder.png" alt="Cliff Click" width="150" height="150" />
+							<img src="images/speakers/cropped/cliff_click_c.png" alt="Cliff Click" width="150" height="150" />
 						</div>
 						<p class="speaker-name"><a href="speakers/CliffClick.html">Cliff Click</a></p>
 						<p class="speaker-affiliation">Distinguished Engineer, Azul Systems</p>
@@ -25,14 +25,14 @@
 					</li>
 					<li class="speaker">
 						<div class="speaker-pic">
-							<img src="images/placeholder.png" alt="John 'maddog' Hall" width="150" height="150" />
+							<img src="images/speakers/cropped/jon_hall_c.png" alt="John 'maddog' Hall" width="150" height="150" />
 						</div>
 						<p class="speaker-name"><a href="">Jon 'maddog' Hall</a></p>
 						<p class="speaker-affiliation">Executive Director, Linux International</p>
 					</li>
 					<li class="speaker">
 						<div class="speaker-pic">
-							<img src="images/placeholder.png" alt="Mark Russinovich" width="150" height="150" />
+							<img src="images/speakers/cropped/mark_r_c.png" alt="Mark Russinovich" width="150" height="150" />
 						</div>
 						<p class="speaker-name"><a href="">Mark Russinovich</a></p>
 						<p class="speaker-affiliation">Technical Fellow, Microsoft</p>
@@ -53,24 +53,45 @@
 					</li>
 					<li class="speaker">
 						<div class="speaker-pic">
-							<img src="images/placeholder.png" alt="Mark Makdad" width="150" height="150" />
+							<img src="images/speakers/cropped/mark_makdad_c.png" alt="Mark Makdad" width="150" height="150" />
 						</div>
 						<p class="speaker-name"><a href="">Mark Makdad</a></p>
 						<p class="speaker-affiliation">Director/Founder, Long Weekend LLC</p>
 					</li>
 					<li class="speaker">
 						<div class="speaker-pic">
-							<img src="images/placeholder.png" alt="Ben Kamens" width="150" height="150" />
+							<img src="images/speakers/cropped/ben_kamens_c.png" alt="Ben Kamens" width="150" height="150" />
 						</div>
 						<p class="speaker-name"><a href="">Ben Kamens</a></p>
 						<p class="speaker-affiliation">Lead Developer, Khan Academy</p>
 					</li>
 					<li class="speaker">
 						<div class="speaker-pic">
-							<img src="images/placeholder.png" alt="Douglas Hofstadter" width="150" height="150" />
+							<img src="images/speakers/cropped/doug_h_c.png" alt="Douglas Hofstadter" width="150" height="150" />
 						</div>
 						<p class="speaker-name"><a href="">Douglas Hofstadter</a></p>
 						<p class="speaker-affiliation">Professor of Cognitive Science, Indiana University</p>
+					</li>
+					<li class="speaker">
+						<div class="speaker-pic">
+							<img src="images/placeholder.png" alt="Richard Powers" width="150" height="150" />
+						</div>
+						<p class="speaker-name"><a href="">Richard Powers</a></p>
+						<p class="speaker-affiliation">Author</p>
+					</li>
+					<li class="speaker">
+						<div class="speaker-pic">
+							<img src="images/speakers/cropped/ari_gesher_c.png" alt="Ari Gesher" width="150" height="150" />
+						</div>
+						<p class="speaker-name"><a href="">Ari Gesher</a></p>
+						<p class="speaker-affiliation">Lead Technologist, Palantir Technologies</p>
+					</li>
+					<li class="speaker">
+						<div class="speaker-pic">
+							<img src="images/speakers/cropped/jason_fennell_c.png" alt="Jason Fennell" width="150" height="150" />
+						</div>
+						<p class="speaker-name"><a href="">Jason Fennell</a></p>
+						<p class="speaker-affiliation">Search/Data Mining Lead, Yelp</p>
 					</li>
 					<li class="speaker">
 						<div class="speaker-pic">
