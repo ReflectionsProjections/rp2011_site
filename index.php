@@ -36,7 +36,8 @@
 
 	$(window).load(function () {
 		$('#featured-images').show();
-		$('#featured-images').orbit();
+		$('#featured-images').orbit({
+		});
 	});
 
 </script>

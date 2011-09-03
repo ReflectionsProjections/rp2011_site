@@ -130,7 +130,15 @@ h2 {
 
 /******** Orbit Plugin ******/
 #featured-images {
-	display: none;	
+	display: none;
+	width: 640px;
+	height: 427px;
+	background: #000 url('orbit/loading.gif') no-repeat center center; overflow: hidden;
+}
+
+#featured-images img,
+#featured-images div {
+	display: none;
 }
 
 .orbit-wrapper {

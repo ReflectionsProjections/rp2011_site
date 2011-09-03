@@ -11,7 +11,7 @@
 	function getHeader() {
 ?>
 		<div id="announcement">
-			<p><a href="volunteers.php">Volunteer Registration</a> is now open!</p>
+			<p>Register to <a href="register.php">attend</a> or <a href="volunteers.php">volunteer</a>!</p>
 		</div>
 		<div id="header">
 			<div id="logo"><a href="index.php" title="Home">Reflections | Projections 2011</a></div>
