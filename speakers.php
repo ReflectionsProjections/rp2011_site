@@ -46,7 +46,7 @@
 					</li>
 					<li class="speaker">
 						<div class="speaker-pic">
-							<img src="images/placeholder.png" alt="Scott Klemmer" width="150" height="150" />
+							<img src="images/speakers/cropped/scott_klemmer_c.png" alt="Scott Klemmer" style="margin-left:15px" height="150" />
 						</div>
 						<p class="speaker-name"><a href="">Scott Klemmer</a></p>
 						<p class="speaker-affiliation">HCI Researcher, Stanford University</p>
@@ -74,7 +74,7 @@
 					</li>
 					<li class="speaker">
 						<div class="speaker-pic">
-							<img src="images/placeholder.png" alt="Richard Powers" width="150" height="150" />
+							<img src="images/speakers/cropped/richard_powers_c.png" alt="Richard Powers" style="margin-left:17.5px" height="150" />
 						</div>
 						<p class="speaker-name"><a href="">Richard Powers</a></p>
 						<p class="speaker-affiliation">Author</p>
