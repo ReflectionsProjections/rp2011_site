@@ -202,9 +202,18 @@ h2 {
 	list-style: circle;
 }
 
+#temp_info {
+	z-index: 5;
+	position: absolute;
+	width: 1000px;
+	height: 1000px;
+	display:none;
+}
+
 .speaker {
-	height: 200px;
+	height: 225px;
 	width: 200px;
+	padding-top: 15px;
 	margin-bottom: 16px;
 	margin-top: 8px;
 	float: left;
