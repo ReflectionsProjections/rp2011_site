@@ -214,8 +214,6 @@ h2 {
 	height: 225px;
 	width: 200px;
 	padding-top: 15px;
-	margin-bottom: 16px;
-	margin-top: 8px;
 	float: left;
 }
 
@@ -232,6 +230,7 @@ h2 {
 	height: 150px;
 	width: 150px;
 	margin-left: 25px;
+	text-align: center;
 }
 
 .speaker-name {

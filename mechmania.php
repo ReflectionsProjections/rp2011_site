@@ -1,6 +1,7 @@
 <?php
   $title = 'MechMania';
 	include('header.php');
+	getTopInfo();
 ?>
 <div id="wrapper">
 	<?php getHeader(); ?>
