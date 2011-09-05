@@ -31,7 +31,7 @@ a {
 }
 
 p {
-	padding-bottom: 8px !important;
+	padding-bottom: 16px !important;
 }
 strong {
 	font-weight: bold;
@@ -248,6 +248,24 @@ h2 {
 	position: absolute;
 	left: -55px;
 	top: 75px;
+}
+
+/******* Biography Page ******/
+
+img.bio-shot {
+    float: right;
+    max-width: 250px;
+    border: 2px solid #4662AD;
+    margin: 20px 0 25px 50px;
+}
+
+hgroup.bio {
+    margin-bottom: 35px;
+}
+
+hgroup.bio h2 {
+    font-size: 35px;
+    padding: 8px 0 0;
 }
 
 /******** Travel Page ********/
