@@ -1,7 +1,6 @@
 <?php
-    $title = 'About';
     include('header.php');
-    getTopInfo();
+    getTopInfo('About');
 ?>
 <div id="wrapper">
     <?php getHeader(); ?>

@@ -1,6 +1,6 @@
 <?php
+	include('header.php');
 	if(!isset($_GET['code']) || !isValidURL($_GET['code'])) {
-	  $title = 'Job Fair';
 		header('Location: ./job-fair-info.php');
 	}
 
@@ -10,7 +10,7 @@
 
 		return DB::query($query);
 	}
-	include('header.php');
+	getTopInfo('Job Fair');
 ?>
 <div id="wrapper">
 	<?php getHeader() ?>

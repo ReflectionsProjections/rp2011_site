@@ -39,10 +39,6 @@ strong {
 a {
 	color: #4662AD;
 }
-a:hover {
-    color: #25418a;
-    text-shadow: 1px 1px 1px #CCCCCC;
-}
 
 /******** Headers ********/
 h1, h2, h3, h4, h5, h6 {
@@ -236,6 +232,12 @@ h2 {
 .speaker-name {
 	color: #4662ad;
 	margin-top: 4px !important;
+}
+
+.speaker-name:hover {
+	color: #25418A;
+	text-shadow: 1px 1px 1px #CCC;
+	cursor: pointer;
 }
 
 .speaker-affiliation {

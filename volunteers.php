@@ -1,7 +1,6 @@
 <?php
-  $title = 'Volunteers';
 	include('header.php');
-	getTopInfo();
+	getTopInfo('Volunteers');
 ?>
 <div id="wrapper">
 	<?php getHeader() ?>

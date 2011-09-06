@@ -1,6 +1,6 @@
 <?php
 	include('header.php');
-	getTopInfo();
+	getTopInfo('Home');
 ?>
 <div id="wrapper">
 	<?php getHeader(); ?>
@@ -37,8 +37,7 @@
 
 	$(window).load(function () {
 		$('#featured-images').show();
-		$('#featured-images').orbit({
-		});
+		$('#featured-images').orbit();
 	});
 
 </script>

@@ -1,7 +1,6 @@
 <?php
-  $title = 'Travel';
 	include('header.php');
-	getTopInfo();
+	getTopInfo('Travel');
 ?>
 <div id="wrapper">
 	<?php getHeader(); ?>

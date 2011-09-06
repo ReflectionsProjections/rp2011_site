@@ -1,7 +1,6 @@
 <?php
-  $title = 'Job Fair';
 	include('header.php');
-	getTopInfo();
+	getTopInfo('Job Fair');
 ?>
 <div id="wrapper">
 	<?php getHeader(); ?>

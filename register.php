@@ -1,7 +1,6 @@
 <?php
-$title = 'Register';
-include('header.php');
-getTopInfo();
+	include('header.php');
+	getTopInfo('Register');
 ?>
     <div id="wrapper">
 	<?php getHeader(); ?>

@@ -1,7 +1,6 @@
 <?php
-  $title = 'Contact';
 	include('header.php');
-	getTopInfo();
+	getTopInfo('Contact');
 ?>
 <div id="wrapper">
 	<?php getHeader(); ?>

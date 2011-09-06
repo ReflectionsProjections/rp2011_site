@@ -1,8 +1,7 @@
 <?php
-  $title = 'Speakers';
 	include('header.php');
 	include('datamodels/SpeakerFactory.php');
-	getTopInfo();
+	getTopInfo('Speakers');
 	
 	$speakers = SpeakerFactory::retrieveAllSpeakers();
 ?>
@@ -41,30 +40,10 @@ EOT;
 <?php include('footer.php') ?>
 
 <?php include('close-page.php') ?>
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$('.speaker').hover(function() {
-				$(this).find('a:last').trigger('hover');
-				$(this).css('background-color', '#ff0000');
-			}, function() {
-				$(this).css('background-color', '#ffffff');
-			});
-
-			$('a.speaker').click(function() {
-				var href = $(this).attr('href');
-
-				$.ajax({
-					  url: href,
-					  data: {"ajax" : 1},
-					  success: function(data){
-						  alert(data);
-						  var result = eval('(' + data + ')');
-					  }
-					});
-
-				return false;
-			});
-			
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('a.speaker').click(function() {
+			return false;
 		});
-
-	</script>
+	});
+</script>
