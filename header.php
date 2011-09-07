@@ -47,6 +47,9 @@ function getTopInfo($title = null) {
 		$directoryRoot = substr($directoryRoot, 0, strlen($directoryRoot) - 1);
 	}
 
+	$cssDirectory = $directoryRoot . "css";
+	$jsDirectory = $directoryRoot . "js";
+
 	$pageTitle = ($title) ? $title . " &laquo; " : "";
 
 	echo<<<EOT
@@ -57,11 +60,11 @@ function getTopInfo($title = null) {
 		<title>$pageTitle Reflections | Projections 2011</title>
 	
 		<!-- Styles -->
-		<link href="$directoryRoot/css/styles.css" rel="stylesheet" type="text/css" />
-		<link href="$directoryRoot/css/footer.css" rel="stylesheet" type="text/css" />
-		<link href="$directoryRoot/css/menu.css" rel="stylesheet" type="text/css" />
-		<link href="$directoryRoot/css/orbit-1.2.3.css" rel="stylesheet" type="text/css" />
-		<link href="$directoryRoot/js/countdown/jquery.countdown.css" rel="stylesheet" type="text/css" />
+		<link href="css/styles.css" rel="stylesheet" type="text/css" />
+		<link href="css/footer.css" rel="stylesheet" type="text/css" />
+		<link href="css/menu.css" rel="stylesheet" type="text/css" />
+		<link href="css/orbit-1.2.3.css" rel="stylesheet" type="text/css" />
+		<link href="js/countdown/jquery.countdown.css" rel="stylesheet" type="text/css" />
 	</head>
 	<body>
 EOT;
