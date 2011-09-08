@@ -5,7 +5,7 @@
 <div id="wrapper">
 	<?php getHeader(); ?>
 	<div id="content-wrapper">
-		<h1 class="schedule-heading vertical-text">schedule</h1>
+		<h1 class="schedule-heading"></h1>
 		<div id="content">
 			<h2>Friday</h2>
 			<p class="tab">The schedule for this year is not yet available. Please check back again later.</p>

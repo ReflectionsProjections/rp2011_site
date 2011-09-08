@@ -5,7 +5,7 @@
     <div id="wrapper">
 	<?php getHeader(); ?>
 	<div id="content-wrapper">
-	    <h1 class="registration-heading vertical-text">registration</h1>
+	    <h1 class="registration-heading"></h1>
 	    <div id="content">
 		<p>Walk-up registration is available, but does not guarantee T-Shirt availability, and will be cash or check only.</p>
 		<div style="width:100%; text-align:center;">

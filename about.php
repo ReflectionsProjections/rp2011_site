@@ -5,7 +5,7 @@
 <div id="wrapper">
     <?php getHeader(); ?>
     <div id="content-wrapper">
-        <h1 class="about-heading vertical-text">about</h1>
+        <h1 class="about-heading"></h1>
         <div id="content">
         	<h2>History of Reflections | Projections</h2>
             <p>Sixteen years ago, the student chapter of the Association for Computing Machinery at the University of Illinois (ACM@UIUC) held its first annual student computing conference. Attended by 150 students from across the midwest and supported by fourteen corporations, it was declared a success.</p>

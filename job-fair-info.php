@@ -5,7 +5,7 @@
 <div id="wrapper">
 	<?php getHeader(); ?>
 	<div id="content-wrapper">
-		<h1 class="job-fair-heading vertical-text">job fair</h1>
+		<h1 class="job-fair-heading"></h1>
 		<div id="content">
 			<h2>Overview</h2>
 			<p>Each year, Reflections | Projections starts with a job fair. Past participants in the job fair have included Microsoft, Palm, Palantir, VMware, Facebook, and dozens of other technology companies.</p>

@@ -5,7 +5,7 @@
 <div id="wrapper">
 	<?php getHeader(); ?>
 	<div id="content-wrapper">
-		<h1 class="travel-heading vertical-text">travel</h1>
+		<h1 class="travel-heading"></h1>
 		<div id="content">
 			<h2>Locations</h2>
 			<p class="tab">

@@ -15,6 +15,7 @@
 <div id="wrapper">
 	<?php getHeader() ?>
 	<div id="content-wrapper">
+		<h1 class="job-fair-heading"></h1>
 		<div id="content">
 			<div id="registration-form" style="width: 650px; margin: auto;">
 				<a name="form1246816392" id="formAnchor1246816392"></a>

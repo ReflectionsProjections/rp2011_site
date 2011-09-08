@@ -8,7 +8,7 @@
 <div id="wrapper">
 	<?php getHeader(); ?>
 	<div id="content-wrapper">
-		<h1 class="speaker-list-heading vertical-text">speakers</h1>
+		<h1 class="speaker-list-heading"></h1>
 		<div id="content">
 			<div id="names">
 				<ul>
