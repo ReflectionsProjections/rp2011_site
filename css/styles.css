@@ -303,6 +303,15 @@ hgroup.bio h2 {
 	height: 200px;
 }
 
+#details-directions {
+	width: 375px;
+	float: left;
+}
+
+#map-directions {
+	float: right;
+}
+
 /******** Job Fair Page ********/
 .job-fair-heading {
 	background-image: url('../images/page-headings.png');

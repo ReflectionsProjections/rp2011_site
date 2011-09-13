@@ -11,7 +11,7 @@
 	function getHeader() {
 		echo<<<EOT
 			<div id="announcement">
-				<p>Register to <a href="register.php">attend</a> or <a href="volunteers.php">volunteer</a>!</p>
+				<p>Register to <a href="register.php">attend</a>, <a href="volunteers.php">volunteer</a>, or <a href="mechmania.php">compete</a>!</p>
 			</div>
 			<div id="header">
 				<div id="logo"><a href="index.php" title="Home">Reflections | Projections 2011</a></div>
