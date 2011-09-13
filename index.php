@@ -10,6 +10,7 @@
 				<img src="images/featured/2.png"></img>
 				<img src="images/featured/3.jpg"></img>
 				<img src="images/featured/4.jpg"></img>
+				<img src="images/featured/5.jpg"></img>
 				<img src="images/featured/7.jpg"></img>
 				<img src="images/featured/6.png"></img>
 			</div>
