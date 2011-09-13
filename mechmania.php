@@ -14,6 +14,11 @@
 			<p>The competition also accepts corporate sponsors, who compete in a separate bracket. Just for fun, corporate entries will also be run against student entries throughout the weekend to see who's better.</p>
 			<h2>Language Notice</h2>
 			<p>Due to overwhelming requests to simplify the MechMania API, we will be providing a REST interface and data will be communicated with JSON. As such, any language which is capable of interpreting and serializing JSON, and which can communicate with a REST webserver will be accepted during this year's competition. A language-specific object model and a function-based command layer will <i>not</i> be provided. We suggest Python or another language which has integrated support for deserializing JSON.</p>
+			<h2>Registration</h2>
+			<p>All teams <b>MUST</b> register together. Registration includes a MechMania t-shirt, meals through the weekend, and entrance to the MechMania competition.</p>
+			<div style="width:100%; text-align:center;" >
+				<iframe  src="http://www.eventbrite.com/tickets-external?eid=1520737567&ref=etckt" frameborder="0" height="224" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" allowtransparency="true" scrolling="no"></iframe>
+			</div>
 		</div><!-- #content end -->
 	</div><!-- #content-wrapper end -->
 </div><!-- #wrapper end -->
