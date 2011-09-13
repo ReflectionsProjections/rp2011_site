@@ -17,7 +17,7 @@
 			<h2>Registration</h2>
 			<p>All teams <b>MUST</b> register together. Registration includes a MechMania t-shirt, meals through the weekend, and entrance to the MechMania competition.</p>
 			<div style="width:100%; text-align:center;" >
-				<iframe  src="http://www.eventbrite.com/tickets-external?eid=1520737567&ref=etckt" frameborder="0" height="224" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" allowtransparency="true" scrolling="no"></iframe>
+				<iframe  src="http://www.eventbrite.com/tickets-external?eid=1520737567&ref=etckt" frameborder="0" height="300" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" allowtransparency="true" scrolling="no"></iframe>
 			</div>
 		</div><!-- #content end -->
 	</div><!-- #content-wrapper end -->
