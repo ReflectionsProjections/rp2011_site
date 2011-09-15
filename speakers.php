@@ -20,8 +20,8 @@
 						$jobTitle = $speaker->getJobTitle();
 						$affiliation = $speaker->getAffiliation();
 						echo <<<EOT
-						<li>
-							<a href="speaker_info.php?sid=$speakerID" class="speaker">
+						<li class="speaker">
+							<a href="speaker_info.php?sid=$speakerID">
 								<div class="speaker-pic">
 									<img src="images/speakers/cropped/$croppedImage" alt="$fullName" height="150" />
 								</div>
@@ -39,7 +39,6 @@ EOT;
 </div><!-- #wrapper end -->
 <?php include('footer.php') ?>
 
-<?php include('close-page.php') ?>
 <script type="text/javascript">
 	$(document).ready(function() {
 		$('a.speaker').click(function() {
@@ -47,3 +46,4 @@ EOT;
 		});
 	});
 </script>
+<?php include('close-page.php') ?>
