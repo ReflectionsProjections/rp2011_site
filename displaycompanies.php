@@ -36,9 +36,16 @@ echo "<table  border=1>
 	  <th>Is Registered</th>
 	</tr>";
 
-
+$registeredCompanyCount = 0;
+$totalCompanies = 0;
 foreach($companyData as $company) {
 $isRegistered = in_array($company['ID'], $regIDs);
+
+$totalCompanies++;
+if($isRegistered) {
+	$registeredCompanyCount++;
+}
+
 $isRegistered = $isRegistered ? "checked" : "";
 $wasSent = ($company['IS_INVITED'] == 1) ? "checked" : "unchecked";
 $companyName = $company['NAME'];
@@ -56,4 +63,6 @@ EOF;
 echo "</table>";
 echo '<input type=submit name="submit" value="submit" />';
 echo '</form>';
+echo "<br/>";
+echo $registeredCompanyCount . " / " .  $totalCompanies . " companies registered";
 ?>
