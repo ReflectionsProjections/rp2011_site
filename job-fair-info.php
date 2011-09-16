@@ -1,7 +1,8 @@
 <?php
-	include('header.php');
-	include('datamodels/CompanyFactory.php');
-	getTopInfo('Job Fair');
+include('header.php');
+include('datamodels/CompanyFactory.php');
+getTopInfo('Job Fair');
+	
 ?>
 <div id="wrapper">
 	<?php getHeader(); ?>
