@@ -1,11 +1,11 @@
 <?php
-  $title = 'Schedule';
 	include('header.php');
+ 	getTopInfo('Schedule');
 ?>
 <div id="wrapper">
    <?php getHeader(); ?>
       <div id="content-wrapper">
-         <h1 class="schedule-heading vertical-text">schedule</h1>
+         <h1 class="schedule-heading">schedule</h1>
             <div id="content">
                <h2>Friday</h2>
        

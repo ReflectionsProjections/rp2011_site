@@ -22,26 +22,19 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 html, body {
 	height: 100%;
 }
-a:hover {
-	cursor: pointer;
-}
 
 a {
 	text-decoration: none;
 }
 
 p {
-	padding-bottom: 8px !important;
+	padding-bottom: 16px !important;
 }
 strong {
 	font-weight: bold;
 }
 a {
 	color: #4662AD;
-}
-a:hover {
-    color: #25418a;
-    text-shadow: 1px 1px 1px #CCCCCC;
 }
 
 /******** Headers ********/
@@ -88,7 +81,6 @@ h2 {
 	line-height: 36px;
 }
 
-
 /******** Announce bar ********/
 #announcement {
 	border-bottom: 1px #c4c4c4 solid;
@@ -100,6 +92,12 @@ h2 {
 #announcement p, #announcement a:link {
 	font-size: 20px;
 	text-decoration: none;
+	text-shadow: 1px 1px 1px #CCC;
+}
+
+#announcement a:hover {
+	color: #25418A;
+	cursor: pointer;
 }
 
 /******** Content ********/
@@ -175,26 +173,37 @@ h2 {
 
 /******** Attendee Registration Page *******/
 .registration-heading {
+	background-image: url('../images/page-headings.png');
+	background-position: -37px 0px;
 	font-size: 32px;
 	position: absolute;
-	left: -78px;
-	top: 98px;
+	top: 17px;
+	left: 15px;
+	width: 40px;
+	height: 200px;
 }
 
 /******** About Page ********/
 .about-heading {
+	background-image: url('../images/page-headings.png');
 	font-size: 32px;
 	position: absolute;
-	left: -30px;
-	top: 50px;
+	top: 15px;
+	left: 15px;
+	width: 40px;
+	height: 200px;
 }
 
 /******** Schedule Page ********/
 .schedule-heading {
+	background-image: url('../images/page-headings.png');
+	background-position: -78px 0;
 	font-size: 32px;
 	position: absolute;
-	left: -55px;
-	top: 75px;	
+	top: 16px;
+	left: 15px;
+	width: 40px;
+	height: 200px;
 }
 
 /******** Speakers Page ********/
@@ -202,11 +211,18 @@ h2 {
 	list-style: circle;
 }
 
+#temp_info {
+	z-index: 5;
+	position: absolute;
+	width: 1000px;
+	height: 1000px;
+	display:none;
+}
+
 .speaker {
-	height: 200px;
+	height: 225px;
 	width: 200px;
-	margin-bottom: 16px;
-	margin-top: 8px;
+	padding-top: 15px;
 	float: left;
 }
 
@@ -223,11 +239,22 @@ h2 {
 	height: 150px;
 	width: 150px;
 	margin-left: 25px;
+	text-align: center;
 }
 
 .speaker-name {
+	margin-top: 4px;	
+}
+
+.speaker-name a {
 	color: #4662ad;
 	margin-top: 4px !important;
+}
+
+.speaker-name a:hover {
+	color: #25418A;
+	text-shadow: 1px 1px 1px #CCC;
+	cursor: pointer;
 }
 
 .speaker-affiliation {
@@ -235,50 +262,126 @@ h2 {
 }
 
 .speaker-list-heading {
+	background-image: url('../images/page-headings.png');
+	background-position: -117px 0;
 	font-size: 32px;
 	position: absolute;
-	left: -55px;
-	top: 75px;
+	top: 16px;
+	left: 15px;
+	width: 40px;
+	height: 200px;
+}
+
+#i-speaker-name-title {
+	font-size: 24px;
+	margin-top: 16px;
+}
+
+#i-speaker-info {
+	margin: 16px 0;
+	overflow: auto;
+}
+
+#i-speaker-pic {
+	border: 1px solid #4662AD;
+	width: 250px;
+	margin: 0 16px 16px 16px;
+	float: right;
+}
+
+#i-speaker-bio {
+
+}
+
+#i-speaker-talks {
+	
+}
+
+/******* Biography Page ******/
+
+img.bio-shot {
+    float: right;
+    max-width: 250px;
+    border: 2px solid #4662AD;
+    margin: 20px 0 25px 50px;
+}
+
+hgroup.bio {
+    margin-bottom: 35px;
+}
+
+hgroup.bio h2 {
+    font-size: 35px;
+    padding: 8px 0 0;
 }
 
 /******** Travel Page ********/
 .travel-heading {
+	background-image: url('../images/page-headings.png');
+	background-position: -157px 0;
 	font-size: 32px;
 	position: absolute;
-	left: -31px;
-	top: 51px;
+	left: 15px;
+	top: 17px;
+	width: 40px;
+	height: 200px;
+}
+
+#details-directions {
+	width: 375px;
+	float: left;
+}
+
+#map-directions {
+	float: right;
 }
 
 /******** Job Fair Page ********/
 .job-fair-heading {
+	background-image: url('../images/page-headings.png');
+	background-position: -197px 0;
 	font-size: 32px;
 	position: absolute;
-	left: -42px;
-	top: 62px;
+	left: 15px;
+	top: 15px;
+	width: 40px;
+	height: 200px;
 }
 
 /******** MechMania Page ********/
 .mechmania-heading {
+	background-image: url('../images/page-headings.png');
+	background-position: -237px;
 	font-size: 32px;
 	position: absolute;
-	left: -75px;
-	top: 95px;
+	left: 15px;
+	top: 20px;
+	width: 40px;
+	height: 200px;
 }
 
 /******** Volunteers Page ********/
 .volunteer-heading {
+	background-image: url('../images/page-headings.png');
+	background-position: -275px 0;
 	font-size: 32px;
 	position: absolute;
-	left: -69px;
-	top: 89px;	
+	left: 15px;
+	top: 16px;
+	width: 40px;
+	height: 200px;
 }
 
 /******** Contact Us Page ********/
 .contact-heading {
+	background-image: url('../images/page-headings.png');
+	background-position: -312px 0;
 	font-size: 32px;
 	position: absolute;
-	left: -66px;
-	top: 86px;
+	left: 15px;
+	top: 16px;
+	width: 40px;
+	height: 200px;
 }
 
 /******** Helper Classes ********/
@@ -293,13 +396,4 @@ h2 {
 
 .clear {
 	clear: both;
-}
-
-.vertical-text {
-	border-bottom: 2px solid;
-	padding: 0 8px 4px 8px;
-	-moz-transform: rotate(-90deg); 
-	-webkit-transform: rotate(-90deg);
-	-o-transform: rotate(-90deg);
-	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
 }

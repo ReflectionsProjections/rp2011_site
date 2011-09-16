@@ -1,11 +1,11 @@
 <?php
-  $title = 'Volunteers';
 	include('header.php');
+	getTopInfo('Volunteers');
 ?>
 <div id="wrapper">
 	<?php getHeader() ?>
 	<div id="content-wrapper">
-		<h1 class="volunteer-heading vertical-text">volunteers</h1>
+		<h1 class="volunteer-heading"></h1>
 		<div id="content">
 			<div id="registration-form" style="width: 750px; margin: auto;">
 				<a name="form1246816392" id="formAnchor1246816392"></a>
