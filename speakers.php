@@ -21,13 +21,13 @@
 						$affiliation = $speaker->getAffiliation();
 						echo <<<EOT
 						<li class="speaker">
-							<a href="speaker_info.php?sid=$speakerID">
-								<div class="speaker-pic">
+							<div class="speaker-pic">
+								<a href="speaker_info.php?sid=$speakerID">
 									<img src="images/speakers/cropped/$croppedImage" alt="$fullName" height="150" />
-								</div>
-								<p class="speaker-name">$fullName</p>
-								<p class="speaker-affiliation">$jobTitle, $affiliation</p>
-							</a>
+								</a>
+							</div>
+							<p class="speaker-name"><a href="speaker_info.php?sid=$speakerID">$fullName</a></p>
+							<p class="speaker-affiliation">$jobTitle, $affiliation</p>
 						</li>					
 EOT;
 					}

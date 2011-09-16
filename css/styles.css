@@ -22,9 +22,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 html, body {
 	height: 100%;
 }
-a:hover {
-	cursor: pointer;
-}
 
 a {
 	text-decoration: none;
@@ -246,17 +243,19 @@ h2 {
 }
 
 .speaker-name {
+	margin-top: 4px;	
+}
+
+.speaker-name a {
 	color: #4662ad;
 	margin-top: 4px !important;
 }
 
-/*
-.speaker-name:hover {
+.speaker-name a:hover {
 	color: #25418A;
 	text-shadow: 1px 1px 1px #CCC;
 	cursor: pointer;
 }
-*/
 
 .speaker-affiliation {
 	margin: 0 !important;
@@ -271,6 +270,31 @@ h2 {
 	left: 15px;
 	width: 40px;
 	height: 200px;
+}
+
+#i-speaker-name-title {
+	font-size: 24px;
+	margin-top: 16px;
+}
+
+#i-speaker-info {
+	margin: 16px 0;
+	overflow: auto;
+}
+
+#i-speaker-pic {
+	border: 1px solid #4662AD;
+	width: 250px;
+	margin: 0 16px 16px 16px;
+	float: right;
+}
+
+#i-speaker-bio {
+
+}
+
+#i-speaker-talks {
+	
 }
 
 /******* Biography Page ******/
