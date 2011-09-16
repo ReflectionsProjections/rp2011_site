@@ -47,6 +47,7 @@
 
 	<!-- Styles -->
 	<link href="css/styles.css" rel="stylesheet" type="text/css" />
+	<link href="css/schedule.css" rel="stylesheet" type="text/css" />
 	<link href="css/footer.css" rel="stylesheet" type="text/css" />
 	<link href="css/menu.css" rel="stylesheet" type="text/css" />
 	<link href="css/orbit-1.2.3.css" rel="stylesheet" type="text/css" />
