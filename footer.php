@@ -21,5 +21,5 @@
 	</div><!-- #footer-content end -->
 </div><!-- #footer end -->
 <div id="universal-scripts">
-	<script type="text/javascript" language="javascript" src="js/jquery-1.5.1.min.js"></script>
+	<script type="text/javascript" language="javascript" src="js/jquery.min.js"></script>
 </div><!-- #universal-scripts end -->
