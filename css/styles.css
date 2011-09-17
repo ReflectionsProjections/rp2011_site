@@ -348,6 +348,10 @@ hgroup.bio h2 {
 	height: 200px;
 }
 
+#company-list {
+	visibility: hidden;
+}
+
 /******** MechMania Page ********/
 .mechmania-heading {
 	background-image: url('../images/page-headings.png');
