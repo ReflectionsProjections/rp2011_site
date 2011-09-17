@@ -352,6 +352,12 @@ hgroup.bio h2 {
 	visibility: hidden;
 }
 
+#company-tagcloud-canvas {
+	position: relative;
+	left: 50%;
+	margin-left: -210px;
+}
+
 /******** MechMania Page ********/
 .mechmania-heading {
 	background-image: url('../images/page-headings.png');

@@ -25,7 +25,7 @@ function IsNullOrEmptyString($question){
 					}
 				?>
 			</ul>
-			<canvas id="company-tagcloud-canvas" height="300" width="800">
+			<canvas id="company-tagcloud-canvas" height="300" width="420">
 			</canvas>
 		</div><!-- #content end -->
 	</div><!-- #content-wrapper end -->
@@ -34,9 +34,10 @@ function IsNullOrEmptyString($question){
 <script type="text/javascript" src="js/jquery.tagcanvas.min.js"></script>
 <script type="text/javascript">
 	$(window).load(function() {
-		if(!$('#company-tagcloud-canvas').tagcanvas({textColour: '#4662AD', outlineOffset: 1000, outlineColour: '#fff', interval: 10, maxSpeed: 0.04, reverse: true, zoom: 1.1},'company-list')) {
+		if(!$('#company-tagcloud-canvas').tagcanvas({textColour: '#4662AD', outlineOffset: 1000, outlineColour: '#fff', interval: 10, maxSpeed: 0.04, decel: .97, reverse: true, zoom: 1.1},'company-list')) {
 			console.log('noload');
 			$('#company-tagcloud-canvas').hide(); // TagCanvas failed to load
+			$('#company-list').css('visibility', 'visible');
 		}
 	});	
 </script>
