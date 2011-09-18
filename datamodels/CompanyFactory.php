@@ -4,7 +4,7 @@ class CompanyFactory {
 
 	public static function retrieveAllAtendingCompanies() {
 
-		$companyData = DB::query("SELECT * FROM companies");
+		$companyData = DB::query("SELECT * FROM companies ORDER BY proper_name ASC");
 		$registeredCompanyIDs = DB::query("SELECT company_id FROM companies_registrations WHERE result_status = 'COMPLETE'");
 		$regIDs = array();
 
