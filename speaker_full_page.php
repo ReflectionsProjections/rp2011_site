@@ -15,11 +15,11 @@
 				<div id="i-speaker-pic">
 					<img src="images/speakers/original/<?php echo $speaker->getFullPhoto(); ?>" alt="<?php echo $speaker->getName(); ?>" width="250" />
 				</div>
+				<!-- 
 				<div id="i-speaker-bio">
 					<h2>Bio</h2>
 					<p><?php echo $speaker->getBio(); ?></p>
 				</div>
-				<!-- 
 				<div id="i-speaker-talks">
 					<h2>Talk Abstract</h2>
 					<p><?php echo $speaker->getBio(); ?></p>
