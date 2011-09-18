@@ -20,7 +20,7 @@ function IsNullOrEmptyString($question){
 					$companies = CompanyFactory::retrieveAllAtendingCompanies();
 					foreach($companies as $company) {
 						if (!IsNullOrEmptyString($company->getName())) {
-							echo "<li><a href=\"#\">" . $company->getName() . "</a></li>";
+							echo "<li><span>" . $company->getName() . "</span></li>";
 						}
 					}
 				?>

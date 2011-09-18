@@ -357,6 +357,10 @@ hgroup.bio h2 {
 	list-style-type: decimal;
 }
 
+#company-list li span {
+	color: #4662AD;
+}
+
 /*
 #company-tagcloud-canvas {
 	position: relative;
