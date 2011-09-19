@@ -28,7 +28,6 @@
                      <tr>
                         <td class="time">5:00 PM</td>
                         <td colspan=2 class="both">
-                           <a href="speaker_info.php?sid=33">Techincal Fellow, MS</a><br />
                            <a href="speaker_info.php?sid=33">Mark Russinovich</a><br />
                            1404 Siebel Center
                         </td>
@@ -140,7 +139,7 @@
                      <tr>
                         <td class="time">5:30 PM</td>
                         <td colspan=2 class="both">
-                           <a href="">Dinner from Papa Del's</a><br />
+                           <a href="">Dinner</a><br />
                            Siebel Center Atrium
                         </td>
                      </tr>
@@ -151,7 +150,7 @@
                            1404 Siebel Center
                         </td>
                         <td class="right">
-                           <a href="/speaker_info.php?sid=3">Jason Fennell</a><br />
+                           <a href="/speaker_info.php?sid=103">Jason Fennell</a><br />
                            1320 DCL 
                         </td>
                      </tr>
@@ -162,7 +161,7 @@
                            1404 Siebel Center
                         </td>
                         <td class="right">
-                           <a href="/speaker_info.php?sid=103"></a>Cliff Click<br />
+                           <a href="/speaker_info.php?sid=3">Cliff Click</a><br />
                            1320 DCL 
                         </td>
                      </tr>
@@ -188,7 +187,7 @@
                      <tr>
                         <td class="time">1:00 PM</td>
                         <td colspan=2 class="both">
-                           <a href="/Conferenceware/Schedule/Details/26">MechMania Closing Ceremony</a><br />
+                           <a href="mechmania.php">MechMania Closing Ceremony</a><br />
                            1404 Siebel Center
                         </td>
                      </tr>
