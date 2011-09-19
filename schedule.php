@@ -106,7 +106,7 @@
                      <tr>
                         <td class="time">1:30 PM</td>
                         <td class="left"> 
-                           <a href="speaker_info.php?sid=73">Douglas Hofstadter</a> & <a href="/speaker_info.php?sid=83">Richard Powers</a><br />
+                           <a href="speaker_info.php?sid=73">Douglas Hofstadter</a> & <a href="speaker_info.php?sid=83">Richard Powers</a><br />
                            1404 Siebel Center
                         </td>
                         <td class="right">
