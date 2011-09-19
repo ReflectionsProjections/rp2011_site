@@ -45,7 +45,7 @@
                      <tr>
                         <td class="time">7:45 PM</td>
                         <td colspan=2 class="both">
-                           <a href="/speaker_info.php?sid=63">Ben Kamens</a><br /> 
+                           <a href="speaker_info.php?sid=63">Ben Kamens</a><br /> 
                            1404 Siebel Center
                         </td>
                      </tr>
@@ -81,18 +81,18 @@
                            1404 Siebel Center
                         </td>
                         <td class="right">
-                           <a href="/speaker_info.php?sid=53">Mark Makdad</a><br /> 
+                           <a href="speaker_info.php?sid=53">Mark Makdad</a><br /> 
                            1320 DCL 
                         </td>
                      </tr>
                      <tr>
                         <td class="time">11:15 AM</td>
                         <td class="left"> 
-                           <a href="/speaker_info.php?sid=43">Scott Klemmer</a><br /> 
+                           <a href="speaker_info.php?sid=43">Scott Klemmer</a><br /> 
                            1404 Siebel Center
                         </td>
                         <td class="right">
-                           <a href="/speaker_info.php?sid=3">Cliff Click</a><br /> 
+                           <a href="speaker_info.php?sid=3">Cliff Click</a><br /> 
                            1320 DCL 
                         </td>
                      </tr>
@@ -106,7 +106,7 @@
                      <tr>
                         <td class="time">1:30 PM</td>
                         <td class="left"> 
-                           <a href="/speaker_info.php?sid=73">Douglas Hofstadter</a> & <a href="/speaker_info.php?sid=83">Richard Powers</a><br />
+                           <a href="speaker_info.php?sid=73">Douglas Hofstadter</a> & <a href="/speaker_info.php?sid=83">Richard Powers</a><br />
                            1404 Siebel Center
                         </td>
                         <td class="right">
@@ -121,18 +121,18 @@
                            1404 Siebel Center
                         </td>
                         <td class="right">
-                           <a href="/speaker_info.php?sid=113">Rachael Brady</a><br />
+                           <a href="speaker_info.php?sid=113">Rachael Brady</a><br />
                            1320 DCL 
                         </td>
                      </tr>
                      <tr>
                         <td class="time">4:00 PM</td>
                         <td class="left"> 
-                           <a href="/speaker_info.php?sid=13">Josh Bloch</a><br />
+                           <a href="speaker_info.php?sid=13">Josh Bloch</a><br />
                            1404 Siebel Center
                         </td>
                         <td class="right">
-                           <a href="/speaker_info.php?sid=133">Jay Kreibich</a><br />
+                           <a href="speaker_info.php?sid=133">Jay Kreibich</a><br />
                            1320 DCL 
                         </td>
                      </tr>
@@ -146,22 +146,22 @@
                      <tr>
                         <td class="time">6:30 PM</td>
                         <td class="left"> 
-                           <a href="/speaker_info.php?sid=23">Jon 'maddog' Hall </a><br />
+                           <a href="speaker_info.php?sid=23">Jon 'maddog' Hall </a><br />
                            1404 Siebel Center
                         </td>
                         <td class="right">
-                           <a href="/speaker_info.php?sid=103">Jason Fennell</a><br />
+                           <a href="speaker_info.php?sid=103">Jason Fennell</a><br />
                            1320 DCL 
                         </td>
                      </tr>
                      <tr>
                         <td class="time">7:45 PM</td>
                         <td class="left"> 
-                           <a href="/speaker_info.php?sid=123">Fred Gallagher</a><br />
+                           <a href="speaker_info.php?sid=123">Fred Gallagher</a><br />
                            1404 Siebel Center
                         </td>
                         <td class="right">
-                           <a href="/speaker_info.php?sid=3">Cliff Click</a><br />
+                           <a href="speaker_info.php?sid=3">Cliff Click</a><br />
                            1320 DCL 
                         </td>
                      </tr>
