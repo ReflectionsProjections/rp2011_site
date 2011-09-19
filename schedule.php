@@ -117,7 +117,7 @@
                      <tr>
                         <td class="time">2:45 PM</td>
                         <td class="left"> 
-                           <a href="">Ari Gesher</a><br />
+                           <a href="speaker_info.php?sid=93">Ari Gesher</a><br />
                            1404 Siebel Center
                         </td>
                         <td class="right">
