@@ -349,14 +349,25 @@ hgroup.bio h2 {
 }
 
 #company-list {
-	visibility: hidden;
+	padding-left: 40px !important;
 }
 
+#company-list li {
+	padding-left: 8px !important;
+	list-style-type: decimal;
+}
+
+#company-list li span {
+	color: #4662AD;
+}
+
+/*
 #company-tagcloud-canvas {
 	position: relative;
 	left: 50%;
 	margin-left: -210px;
 }
+*/
 
 /******** MechMania Page ********/
 .mechmania-heading {
