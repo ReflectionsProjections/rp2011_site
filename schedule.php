@@ -77,7 +77,7 @@
                      <tr>
                         <td class="time">10:00 AM</td>
                         <td class="left"> 
-                           <a href="">Facebook</a><br /> 
+                           <a href="speaker_info.php?sid=93">Facebook</a><br /> 
                            1404 Siebel Center
                         </td>
                         <td class="right">
@@ -117,7 +117,7 @@
                      <tr>
                         <td class="time">2:45 PM</td>
                         <td class="left"> 
-                           <a href="">Palantir</a><br />
+                           <a href="">Ari Gesher</a><br />
                            1404 Siebel Center
                         </td>
                         <td class="right">
