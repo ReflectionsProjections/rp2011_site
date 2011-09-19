@@ -9,7 +9,7 @@
 	    <div id="content">
 		<p>Walk-up registration is available, but does not guarantee T-Shirt availability, and will be cash or check only.</p>
 		<div style="width:100%; text-align:center;">
-		    <iframe src="http://www.eventbrite.com/tickets-external?eid=1147561387&ref=etckt" scrolling="no" frameborder="0" height="300px" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
+		    <iframe src="http://www.eventbrite.com/tickets-external?eid=1147561387&ref=etckt" scrolling="no" frameborder="0" height="500px" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe>
 		</div>
 	    </div>
 	</div>
