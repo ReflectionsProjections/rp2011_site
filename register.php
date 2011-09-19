@@ -2,7 +2,7 @@
 	include('header.php');
 	getTopInfo('Register');
 ?>
-    <div id="wrapper">
+<div id="wrapper">
 	<?php getHeader(); ?>
 	<div id="content-wrapper">
 	    <h1 class="registration-heading"></h1>
@@ -13,6 +13,6 @@
 		</div>
 	    </div>
 	</div>
-    </div>
+</div>
 <?php include('footer.php') ?>
 <?php include('close-page.php') ?>
