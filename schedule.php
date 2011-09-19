@@ -107,7 +107,7 @@
                      <tr>
                         <td class="time">1:30 PM</td>
                         <td class="left"> 
-                           <a href="/speaker_info.php?sid=73">Hofstadter</a> & <a href="/speaker_info.php?sid=83">Richard Powers</a><br />
+                           <a href="/speaker_info.php?sid=73">Douglas Hofstadter</a> & <a href="/speaker_info.php?sid=83">Richard Powers</a><br />
                            1404 Siebel Center
                         </td>
                         <td class="right">
@@ -151,7 +151,7 @@
                            1404 Siebel Center
                         </td>
                         <td class="right">
-                           <a href="/speaker_info.php?sid=3">Cliff Click</a><br />
+                           <a href="/speaker_info.php?sid=3">Jason Fennell</a><br />
                            1320 DCL 
                         </td>
                      </tr>
@@ -162,7 +162,7 @@
                            1404 Siebel Center
                         </td>
                         <td class="right">
-                           <a href="/speaker_info.php?sid=103">Jason Fennell</a><br />
+                           <a href="/speaker_info.php?sid=103"></a>Cliff Click<br />
                            1320 DCL 
                         </td>
                      </tr>
