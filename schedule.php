@@ -77,7 +77,7 @@
                      <tr>
                         <td class="time">10:00 AM</td>
                         <td class="left"> 
-                           <a href="speaker_info.php?sid=93">Facebook</a><br /> 
+                           <a href="">Facebook</a><br /> 
                            1404 Siebel Center
                         </td>
                         <td class="right">
