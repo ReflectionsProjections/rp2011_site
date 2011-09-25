@@ -86,7 +86,11 @@
  
                      <tr>
                         <td class="time">9:00 AM</td>
-                        <td colspan=2 class="both">
+                        <td class="left"> 
+                           <a class="eventTitle" href="">Breakfast</a><br /> 
+                          Siebel Center Atrium
+                        </td>
+                        <td class="right">
                           <a class="eventTitle" href="mechmania.php">Mechmania Begins</a><br />
                           Siebel Center Atrium
                         </td>
