@@ -14,11 +14,11 @@ class Talk {
 
 
 	public function getTitle() {
-		return $this->title;
+		return utf8_encode($this->title);
 	}
 
 	public function getDescription() {
-		return $this->description;
+		return utf8_encode($this->description);
 	}
 
 	public function getLocation() {
