@@ -1,6 +1,17 @@
 <?php
 	include('header.php');
+   include('datamodels/SpeakerFactory.php');
  	getTopInfo('Schedule');
+
+   function getEntry($id) {
+      $speaker = SpeakerFactory::retrieveSpeakerByID($id);
+      $url = "<a href=\"speaker_info.php?sid=".$id."\">";
+      $name = $speaker->getName();
+      $affiliation = $speaker->getAffiliation();
+
+      echo
+      $url.$name.", ".$affiliation."</a><br />";
+   }
 ?>
 <div id="wrapper">
    <?php getHeader(); ?>
@@ -24,11 +35,11 @@
                         </td>
                      </tr>
     
-    
                      <tr>
+                        <?php $id = 33; $speaker = SpeakerFactory::retrieveSpeakerByID($id);?>
                         <td class="time">5:00 PM</td>
                         <td colspan=2 class="both">
-                           <a href="speaker_info.php?sid=33">Mark Russinovich</a><br />
+                           <?php getEntry(33); ?>
                            1404 Siebel Center
                         </td>
                      </tr>
@@ -45,7 +56,7 @@
                      <tr>
                         <td class="time">7:45 PM</td>
                         <td colspan=2 class="both">
-                           <a href="speaker_info.php?sid=63">Ben Kamens</a><br /> 
+                           <?php getEntry(63); ?>
                            1404 Siebel Center
                         </td>
                      </tr>
@@ -77,22 +88,22 @@
                      <tr>
                         <td class="time">10:00 AM</td>
                         <td class="left"> 
-                           <a href="">Facebook</a><br /> 
+                           <a href="">Dropbox</a><br /> 
                            1404 Siebel Center
                         </td>
                         <td class="right">
-                           <a href="speaker_info.php?sid=53">Mark Makdad</a><br /> 
+                           <?php getEntry(53); ?>
                            1320 DCL 
                         </td>
                      </tr>
                      <tr>
                         <td class="time">11:15 AM</td>
                         <td class="left"> 
-                           <a href="speaker_info.php?sid=43">Scott Klemmer</a><br /> 
+                           <?php getEntry(43); ?>
                            1404 Siebel Center
                         </td>
                         <td class="right">
-                           <a href="speaker_info.php?sid=3">Cliff Click</a><br /> 
+                           <?php getEntry(3); ?>
                            1320 DCL 
                         </td>
                      </tr>
@@ -106,21 +117,23 @@
                      <tr>
                         <td class="time">1:30 PM</td>
                         <td class="left"> 
-                           <a href="speaker_info.php?sid=73">Douglas Hofstadter</a> & <a href="speaker_info.php?sid=83">Richard Powers</a><br />
+                           <?php getEntry(73); ?>
+                           <?php getEntry(83); ?>
                            1404 Siebel Center
                         </td>
                         <td class="right">
-                           <a href="">Alex Bratton</a><br />
+                           <?php getEntry(143); ?>
                            1320 DCL 
                         </td>
                      </tr>
                      <tr>
                         <td class="time">2:45 PM</td>
                         <td class="left"> 
-                           <a href="speaker_info.php?sid=93">Ari Gesher</a><br />
+                           <?php getEntry(93); ?>
                            1404 Siebel Center
                         </td>
                         <td class="right">
+                           <?php getEntry(113); ?>
                            <a href="speaker_info.php?sid=113">Rachael Brady</a><br />
                            1320 DCL 
                         </td>
@@ -128,11 +141,11 @@
                      <tr>
                         <td class="time">4:00 PM</td>
                         <td class="left"> 
-                           <a href="speaker_info.php?sid=13">Josh Bloch</a><br />
+                           <?php getEntry(13); ?>
                            1404 Siebel Center
                         </td>
                         <td class="right">
-                           <a href="speaker_info.php?sid=133">Jay Kreibich</a><br />
+                           <?php getEntry(133); ?>
                            1320 DCL 
                         </td>
                      </tr>
@@ -146,22 +159,22 @@
                      <tr>
                         <td class="time">6:30 PM</td>
                         <td class="left"> 
-                           <a href="speaker_info.php?sid=23">Jon 'maddog' Hall </a><br />
+                           <?php getEntry(23); ?>
                            1404 Siebel Center
                         </td>
                         <td class="right">
-                           <a href="speaker_info.php?sid=103">Jason Fennell</a><br />
+                           <?php getEntry(103); ?>
                            1320 DCL 
                         </td>
                      </tr>
                      <tr>
                         <td class="time">7:45 PM</td>
                         <td class="left"> 
-                           <a href="speaker_info.php?sid=123">Fred Gallagher</a><br />
+                           <?php getEntry(123); ?>
                            1404 Siebel Center
                         </td>
                         <td class="right">
-                           <a href="speaker_info.php?sid=3">Cliff Click</a><br />
+                           <?php getEntry(3); ?>
                            1320 DCL 
                         </td>
                      </tr>
