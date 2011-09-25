@@ -1,4 +1,5 @@
 <?php
+include('Talk.php');
 class Speaker {
 
 	private $id;
@@ -7,6 +8,7 @@ class Speaker {
 	private $photoURL;
 	private $jobTitle;
 	private $affiliation;
+	private $talks;
 
 
 	function __construct($id, $name, $bio, $photoURL, $jobTitle, $affiliation) {
@@ -44,6 +46,30 @@ class Speaker {
 
 	public function getAffiliation() {
 		return $this->affiliation;
+	}
+	
+	public function getTalks() {
+		if($this->talks) {
+			return $this->talks;
+		}
+		
+		$query = "SELECT talks.title, talks.description, talks.location FROM (talks JOIN speakers_talks ON " .
+			"(speakers_talks.talk_id = talks.id)) JOIN speakers ON (speakers.id = speakers_talks.speaker_id) " .
+			"WHERE speakers.id = " . $this->getID() . " ORDER BY talks.ordering ASC";
+		
+		$result = DB::query($query);
+		
+		$talks = array();
+		foreach($result as $r) {
+			$title = $r['TITLE'];
+			$description = $r['DESCRIPTION'];
+			$description = nl2br($description);
+			$location = $r['LOCATION'];
+			
+			$talks[] = new Talk($title, $description, $location);
+		}
+		
+		return $talks;
 	}
 
 	public static function persistSpeaker($name, $bio, $photoURL, $jobTitle, $affiliation) {
