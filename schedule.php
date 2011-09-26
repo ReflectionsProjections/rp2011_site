@@ -30,7 +30,7 @@
                      <tr>
                         <td class="time"></td>
                         <td colspan=2>
-                                <h2 class="schedule">Friday</h2>
+                                <h2 class="schedule">Friday, October 7th</h2>
                         </td>
                      </tr>
                      <tr>
@@ -80,7 +80,7 @@
                      <tr>
                         <td class="time"></td>
                         <td colspan=2>
-                                <h2 class="schedule">Saturday</h2>
+                                <h2 class="schedule">Saturday, October 8th</h2>
                         </td>
                      </tr>
  
@@ -195,7 +195,7 @@
                      <tr>
                         <td class="time"></td>
                         <td colspan=2>
-                                <h2 class="schedule">Sunday</h2>
+                                <h2 class="schedule">Sunday, October 9th</h2>
                         </td>
                      </tr>
  
