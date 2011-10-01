@@ -25,7 +25,7 @@
 			<h2>When it'll happen</h2>
 			<p>The competition starts with an opening ceremony on Friday, October 7th., after which we will give you the night to rest. The labs open and you can start coding on Saturday morning at 9AM. We will stop accepting updates to your submission at 9AM Sunday, for a total of 24 hours of coding time. The final presentation will happen at 1PM on Sunday.</p>
 			<h2>What we'll give you</h2>
-			<p>Teams will be provided with 2 PCs running CentOS 5. You should write platform-independent code if you select a language other than Java or Python to ensure compatibility with the competition environment, which usually runs on a Mac Pro. We will provide a standard Unix environment, as described above.</p>
+			<p>Teams will be provided with 2 PCs running CentOS 5. You should write platform-independent code if you select a language other than Java or Python to ensure compatibility with the competition environment, which usually runs on a Mac Pro. We will provide a standard Unix environment, as described above. You will have access to the Internet throughout the competition and are free to find reference materials, documentation and third party libraries<sup>1</sup></p>
 			<h2>What you can bring</h2>
 			<p>You can bring any reference manuals you wish, whether it be the Art of Computer Programming or the Art of War. But <b>absolutely no outside code</b>. You may, however, bring non-code items like rc files, build scripts, notes, etc.; we still have the large, fuzzy bat from last year and we will make contact with your skull if necessary.</p>
 			<!--
@@ -42,6 +42,8 @@
 			<div style="width:100%; text-align:center;" >
 				<iframe  src="http://www.eventbrite.com/tickets-external?eid=1520737567&ref=etckt" frameborder="0" height="500px" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" allowtransparency="true" scrolling="no"></iframe>
 			</div>
+			<h2>Footnotes</h2>
+			<p><sup>1</sup> Please note that when we say "third-party libraries" we mean third-party: not ones written by you, your team, or your friends. We will try to make sure that PIP is set up for Python users.</p>
 		</div><!-- #content end -->
 	</div><!-- #content-wrapper end -->
 </div><!-- #wrapper end -->
