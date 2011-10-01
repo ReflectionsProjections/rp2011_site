@@ -43,7 +43,7 @@
 				<iframe  src="http://www.eventbrite.com/tickets-external?eid=1520737567&ref=etckt" frameborder="0" height="500px" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" allowtransparency="true" scrolling="no"></iframe>
 			</div>
 			<h2>Footnotes</h2>
-			<p><sup>1</sup> ... that compiles and runs on our test machine. Note that this machines you should avoid Linux-specific C/C++. Pure Unix-targeted code should suffice.</p>
+			<p><sup>1</sup> ... that compiles and runs on our test machine. Note that this means you should avoid Linux-specific C/C++. Pure Unix-targeted code should suffice.</p>
 			<p><sup>2</sup> Please note that when we say "third-party libraries" we mean third-party: not ones written by you, your team, or your friends. We will try to make sure that PIP is set up for Python users.</p>
 		</div><!-- #content end -->
 	</div><!-- #content-wrapper end -->
