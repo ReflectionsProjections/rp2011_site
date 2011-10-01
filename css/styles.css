@@ -418,3 +418,9 @@ hgroup.bio h2 {
 .clear {
 	clear: both;
 }
+
+
+sup {
+	font-size:xx-small;
+	vertical-align:top;
+}
