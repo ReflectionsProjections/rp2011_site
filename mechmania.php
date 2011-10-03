@@ -25,7 +25,7 @@
 			<h2>When it'll happen</h2>
 			<p>The competition starts with an opening ceremony on Friday, October 7th., after which we will give you the night to rest. The labs open and you can start coding on Saturday morning at 9AM. We will stop accepting updates to your submission at 9AM Sunday, for a total of 24 hours of coding time. The final presentation will happen at 1PM on Sunday.</p>
 			<h2>What we'll give you</h2>
-			<p>Teams will be provided with 2 PCs running CentOS 5. You should write platform-independent code if you select a language other than Java or Python to ensure compatibility with the competition environment, which usually runs on a Mac Pro. We will provide a standard Unix environment, as described above. You will have access to the Internet throughout the competition and are free to find reference materials, documentation and third party libraries<sup>2</sup>.</p>
+			<p>Teams will be provided with 2 PCs running Scientific Linux 6. You should write platform-independent code if you select a language other than Java or Python to ensure compatibility with the competition environment, which usually runs on a Mac Pro. We will provide a standard Unix environment, as described above. You will have access to the Internet throughout the competition and are free to find reference materials, documentation and third party libraries<sup>2</sup>.</p>
 			<h2>What you can bring</h2>
 			<p>You can bring any reference manuals you wish, whether it be the Art of Computer Programming or the Art of War. But <b>absolutely no outside code</b>. You may, however, bring non-code items like rc files, build scripts, notes, etc.; we still have the large, fuzzy bat from last year and we will make contact with your skull if necessary.</p>
 			<!--
