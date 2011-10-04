@@ -8,7 +8,7 @@
 		<h1 class="mechmania-heading"></h1>
 		<div id="content">
 			<h2>What is it?</h2>
-			<p>MechMania brings together teams from schools across the midwest to compete in a 24-hour AI programming contest. On Friday evening, we will reveal the game and provide documentation on the API. If you can't make it Friday night, don't worry - you can still compete, but you'll be missing <b>Dropbox</b>'s tutorial on Python and REST, two of the underlying technologies in this year's competition. After the programming portion of the competition ends, we will be presenting the final game live. This year's game will pit all competitors against each other in a battle royale. A representative of your team must be present at the closing ceremony for your team to win.</p>
+			<p>MechMania brings together teams from schools across the midwest to compete in a 24-hour AI programming contest. On Friday evening, we will reveal the game and provide documentation on the API. If you can't make it Friday night, don't worry - you can still compete, but you'll be missing <b>Dropbox</b>'s tutorial on Python and REST, two of the underlying technologies in this year's competition. After the programming portion of the competition ends, we will be presenting the final games live. A representative of your team must be present at the closing ceremony for your team to win.</p>
 			<center><img src="dropbox.png"/><br/>Sponsored by Dropbox</center>
 			<h2>Who's eligible?</h2>
 			<p>We accept teams of up to three people in two brackets:</p>
