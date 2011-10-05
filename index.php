@@ -30,7 +30,7 @@
 	
 	$(document).ready(function() {
 		var today = new Date();
-		var rpDate = new Date(2011, 9, 7, 00, 00, 00);
+		var rpDate = new Date(2011, 9, 7, 10, 00, 00);
 
 		$('#counter').countdown({
 			labels: ['Years', 'Months', 'Weeks', 'Days', 'Hours', 'Minutes', 'Seconds'],
