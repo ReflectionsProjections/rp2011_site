@@ -28,16 +28,6 @@
 <script type="text/javascript" language="javascript" src="js/countdown/jquery.countdown.js"></script>
 <script type="text/javascript" language="javascript">
 	
-	$(document).ready(function() {
-		var today = new Date();
-		var rpDate = new Date(2011, 9, 7, 10, 00, 00);
-
-		$('#counter').countdown({
-			labels: ['Years', 'Months', 'Weeks', 'Days', 'Hours', 'Minutes', 'Seconds'],
-			timeSeparator: ':',
-			until: rpDate,
-		});
-	});
 
 	$(window).load(function () {
 		$('#featured-images').show();
