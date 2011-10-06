@@ -39,10 +39,7 @@
 			<p>Due to overwhelming requests to simplify the MechMania API, we will be providing a REST interface and data will be communicated with JSON. As such, any language which is capable of interpreting and serializing JSON, and which can communicate with a REST webserver will be accepted during this year's competition. A language-specific object model and a function-based command layer will <i>not</i> be provided. We suggest Python or another language which has integrated support for deserializing JSON.</p>
 			-->
 			<h2>Registration</h2>
-			<p>All teams <b>MUST</b> register together. Registration includes a MechMania t-shirt, meals through the weekend, and entrance to the MechMania competition.</p>
-			<div style="width:100%; text-align:center;" >
-				<iframe  src="http://www.eventbrite.com/tickets-external?eid=1520737567&ref=etckt" frameborder="0" height="500px" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" allowtransparency="true" scrolling="no"></iframe>
-			</div>
+			<p>Registration for MechMania is now closed.</p>
 			<h2>Footnotes</h2>
 			<p><sup>1</sup> ... that compiles and runs on our test machine. Note that this means you should avoid Linux-specific C/C++. Pure Unix-targeted code should suffice.</p>
 			<p><sup>2</sup> Please note that when we say "third-party libraries" we mean third-party: not ones written by you, your team, or your friends. We will try to make sure that PIP is set up for Python users.</p>
