@@ -98,7 +98,7 @@
                      <tr>
                         <td class="time">10:00 AM</td>
                         <td class="left"> 
-                           <a class="eventTitle" href="">Dropbox</a><br /> 
+                           <?php getEntry(153,0); ?>
                            1404 Siebel Center
                         </td>
                         <td class="right">
