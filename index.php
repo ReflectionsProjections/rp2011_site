@@ -15,7 +15,6 @@
 				<img src="images/featured/1.jpg"></img>
 			</div>
 			<div id="counter-wrapper">
-				<div id="counter"></div>
 				<p class="center" id="confdate">October 7 - 9, 2011</p>
 			</div><!-- #counter-wrapper end -->
 	</div><!-- #content-wrapper end -->
