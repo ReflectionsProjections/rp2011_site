@@ -13,7 +13,8 @@
 			<h2>Who's eligible?</h2>
 			<p>We accept teams of up to three people in two brackets:</p>
 			<h3>Student Competition</h3>
-			<p>Our student competition accepts up to twenty teams and pits them against each other in one final battle. Each member of the first place team will receive an <b>iPad 2</b> provided by <b>Dropbox</b>. Second and third place prizes will be announced at a later time.</p>
+			<p>Our student competition accepts up to twenty teams and pits them against each other in one final battle. Each member of the first place team will receive an <b>iPad 2</b> provided by <b>Dropbox</b> as well 150GB of Dropbox space for life. Second place team members will each receive 100GB of Dropbox space for life, and third place team members each will receive 50GB of Dropbox space for life.</p>
+			<p>Other prizes will also be given out throughout the night, provided by <b>Bungie</b> and the <b>ACM</b>.
 			<h3>Corporate Competition</h3>
 			<p>The corporate competition is open to teams representing companies. This year, we have already received enough of a response to ensure a corporate game.</p>
 			<h2>What you need to know</h2>
